@@ -1,0 +1,67 @@
+<div class="sidebar">
+  <div class="container sidebar">
+	<div class="sidebar-about">
+      <a href="/haha" class="logo"><img src="/resources/haha-logo.png" width="150rem" height="150rem" /></a>
+      <p class="lead">{{ site.hahadescription }}</p>
+    </div>
+
+    <ul class="sidebar-nav">
+      
+      <li class="sidebar-nav-item{% if page.title == "Hack Harris" %} active{% endif %}">
+        <a href="/haha">About Hack Harris</a>
+      </li>
+
+      {% comment %}
+        The code below dynamically generates a sidebar nav of pages with
+        `layout: page` in the front-matter. See readme for usage.
+      {% endcomment %}
+
+      <!-- haha pages -->
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "haha" and node.title != 'Hack Harris' %}
+            <li class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}{% if page.category == 'member' and node.url == '/members/' %} active{%endif %}">
+              <a href="{{ node.url }}">{{ node.title }}</a>
+            </li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      <br/>
+
+      <!-- dipp pages -->
+      <li class="sidebar-nav-item active">
+        <a href="/">Data in Public Policy</a>
+      </li>
+      <!--
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "page" and node.title != 'Home' %}
+            <li class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}">
+              <a href="{{ node.url }}">{{ node.title }}</a>
+            </li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      -->
+    </ul>
+    <a href="/atom.xml" style="float:right;"><img src="/resources/feed.png" height="32rem" width="32rem" /></a>
+      <li class="sidebar-nav-item">
+        <a href="{{ site.github.repo }}">GitHub</a>
+      </li>
+      <!-- Begin MailChimp Signup Form -->
+      
+      <div id="mc_embed_signup">
+      <form action="//ucdipp.us9.list-manage.com/subscribe/post?u=d6713fe31ce1f1f59621c568a&amp;id=73fc1fb2b6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+      <label for="mce-EMAIL">Subscribe to DiPP</label>
+      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required style="float:left;">
+        <div style="position: absolute; left: -5000px; "><input type="text" name="b_d6713fe31ce1f1f59621c568a_73fc1fb2b6" tabindex="-1" value=""></div>
+        <div class="clear" style="float:left;"><input type="submit" value="Go!" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        </div>
+      </form>
+      </div>
+
+      <!--End mc_embed_signup-->
+  </div>
+</div>

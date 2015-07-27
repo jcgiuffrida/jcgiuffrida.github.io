@@ -1,0 +1,122 @@
+---
+layout: default
+title: Home
+---
+
+<h1>Data in Public Policy</h1>
+
+
+<p>We are a student organization at the <a href="http://harrisschool.uchicago.edu">University of Chicago Harris School for Public Policy</a> created to foster data skills and analytical expertise among public policy students.</p>
+
+<h3>Tell us what you want!</h3>
+<p>Looking to gain more data skills? Want to share the skills you already have? Fill out a quick survey telling us what you'd like to learn, and whether you can help. We're hoping to put on several data training sessions this year based on your input.</p>
+<button type="button" onclick="window.location.href='https://docs.google.com/forms/d/1g8ltjEgbZtuUICGng0WFZMbyRTW_B8EIo_GjKpj19MI/viewform';">Tell us more!</button>
+
+<h3>Upcoming Events</h3>
+<div class="group">
+{% assign counter = 0 %}
+{% for post in site.categories.event %}
+  {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+  {% capture eventdate %}{{post.eventdate | date: '%s'}}{% endcapture %}
+  {% if eventdate > nowunix %}
+    {% if counter < 4 %}
+    <div class="panel{% if post.image %}" style="background-image: url('{{ post.image }}'); {% else %} no-image{% endif %}" onclick="window.location='{{ post.url }}';">
+      <div class="transparency">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p class="post-date">{{ post.eventdate | date_to_long_string }}</p>
+      </div>
+    </div>
+    {% assign counter=counter | plus:1 %}
+  {% endif %}
+{% endif %}
+{% endfor %}
+</div>
+<hr>
+
+<h3>Our Activities</h3>
+<div class="group">
+  <div class="activity" onclick="window.location='/haha';">
+    <h3><a href="/haha">Hack Harris</a></h3>
+    <p>We host a weekly policy hack night at Harris, ideal for beginners who want to learn tools for analyzing policy data and building programs and websites. All students welcome, especially if it's your first time. </p>
+  </div>
+  <div class="activity" onclick="window.location='/events';">
+    <h3><a href="/events">Events</a></h3>
+    <p>We host events featuring people prominent in the data and policy fields in Chicago.</p>
+    </div>
+  <div class="activity" onclick="window.location='/externships';">
+    <h3><a href="/externships">Student Externships</a></h3>
+    <p>We pair interested policy students with local Chicago organizations that need help collecting, analyzing, and visualizing data.</p>
+  </div>
+  <div class="activity" onclick="window.location='/careers';">
+    <h3><a href="/careers">Career Assistance</a></h3>
+    <p>We organize career events and alumni panels and locate part-time and full-time job opportunities for students at the intersection of data and public policy, both during and after their time in school.</p>
+  </div>
+</div>
+<br>
+<hr>
+<a class="twitter-timeline" href="https://twitter.com/UChicagoDiPP" data-widget-id="493807740431515648">Tweets by @UChicagoDiPP</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+<!--
+
+<hr>
+<h2>All DiPP News</h2>
+<br>
+# paginator only if it isn't the top posts 
+<a name="posts"></a>
+{% if paginator.previous_page %}
+  <div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="/page{{paginator.next_page}}#posts">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="/#posts">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="/page{{paginator.previous_page}}#posts">Newer</a>
+    {% endif %}  
+  </div>
+{% endif %}
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h2 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+
+    <span class="post-date">
+      {% if post.eventdate %}
+        {{ post.eventdate | date_to_long_string }}
+      {% else %}
+        {{ post.date | date_to_string }}
+      {% endif %}
+    </span>
+
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="/page{{paginator.next_page}}#posts">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="/#posts">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="/page{{paginator.previous_page}}#posts">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
+
+    -->
