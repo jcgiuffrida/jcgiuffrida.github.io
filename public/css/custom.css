@@ -103,6 +103,7 @@ button:hover {
 
 .sidebar .logo img {
 	margin: 0 auto 0.2rem auto;
+	border-radius: 50%;
 }
 .sidebar .lead {
 	font-size: 0.85rem;

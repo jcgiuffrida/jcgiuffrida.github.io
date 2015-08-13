@@ -3,22 +3,18 @@ layout: default
 title: Home
 ---
 
-<h1>Data in Public Policy</h1>
+<h1>Jonathan Giuffrida</h1>
 
 
-<p>We are a student organization at the <a href="http://harrisschool.uchicago.edu">University of Chicago Harris School for Public Policy</a> created to foster data skills and analytical expertise among public policy students.</p>
+<p>I am a healthcare policy professional with two bunnies and a <a href="https://www.linkedin.com/profile/view?id=153873587">girlfriend</a>.</p>
 
-<h3>Tell us what you want!</h3>
-<p>Looking to gain more data skills? Want to share the skills you already have? Fill out a quick survey telling us what you'd like to learn, and whether you can help. We're hoping to put on several data training sessions this year based on your input.</p>
-<button type="button" onclick="window.location.href='https://docs.google.com/forms/d/1g8ltjEgbZtuUICGng0WFZMbyRTW_B8EIo_GjKpj19MI/viewform';">Tell us more!</button>
-
-<h3>Upcoming Events</h3>
+<h3>Recent Stories</h3>
 <div class="group">
 {% assign counter = 0 %}
 {% for post in site.categories.event %}
   {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
   {% capture eventdate %}{{post.eventdate | date: '%s'}}{% endcapture %}
-  {% if eventdate > nowunix %}
+  {% if eventdate < nowunix %}
     {% if counter < 4 %}
     <div class="panel{% if post.image %}" style="background-image: url('{{ post.image }}'); {% else %} no-image{% endif %}" onclick="window.location='{{ post.url }}';">
       <div class="transparency">
@@ -33,7 +29,7 @@ title: Home
 </div>
 <hr>
 
-<h3>Our Activities</h3>
+<h3>Recent </h3>
 <div class="group">
   <div class="activity" onclick="window.location='/haha';">
     <h3><a href="/haha">Hack Harris</a></h3>
@@ -54,8 +50,6 @@ title: Home
 </div>
 <br>
 <hr>
-<a class="twitter-timeline" href="https://twitter.com/UChicagoDiPP" data-widget-id="493807740431515648">Tweets by @UChicagoDiPP</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 
 <!--

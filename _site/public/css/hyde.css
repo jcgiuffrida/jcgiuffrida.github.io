@@ -206,15 +206,6 @@ a.sidebar-nav-item:focus {
   color: #800000;
 }
 
-/* hack harris */
-.theme-base-haha .sidebar {
-  background-color: #22C5F0; /* haha blue */
-}
-.theme-base-haha .content a,
-.theme-base-haha .related-posts li a:hover {
-  color: #008CD2;
-}
-
 
 /* Orange */
 .theme-base-09 .sidebar {
@@ -278,14 +269,6 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
-
-
-
-.sidebar .logo-haha {
-  font-size: 2.2rem;
-  text-align:center;
-}
-
 
 
 

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Data in Public Policy</title>
- <link href="http://uc-dipp.github.io/atom.xml" rel="self"/>
- <link href="http://uc-dipp.github.io/"/>
- <updated>2014-10-24T21:35:34-05:00</updated>
- <id>http://uc-dipp.github.io</id>
+ <title>Jonathan Giuffrida</title>
+ <link href="http://lucaluca.github.io/atom.xml" rel="self"/>
+ <link href="http://lucaluca.github.io/"/>
+ <updated>2015-08-12T22:37:06-05:00</updated>
+ <id>http://lucaluca.github.io</id>
  <author>
-   <name>Data in Public Policy</name>
+   <name>Jonathan Giuffrida</name>
    <email></email>
  </author>
 
  
  <entry>
    <title>Speed Dataing</title>
-   <link href="http://uc-dipp.github.io/event/2014/10/07/Speed-Dataing/"/>
+   <link href="http://lucaluca.github.io/event/2014/10/07/Speed-Dataing/"/>
    <updated>2014-10-07T00:00:00-05:00</updated>
-   <id>http://uc-dipp.github.io/event/2014/10/07/Speed-Dataing</id>
+   <id>http://lucaluca.github.io/event/2014/10/07/Speed-Dataing</id>
    <content type="html">&lt;p&gt;So many data tools, so little time!&lt;/p&gt;
 
 &lt;p&gt;Introducing: DiPP Speed Data-ing&lt;/p&gt;
@@ -35,9 +35,9 @@
  
  <entry>
    <title>First blog post!</title>
-   <link href="http://uc-dipp.github.io/blog/2014/10/05/first-blog-post/"/>
+   <link href="http://lucaluca.github.io/blog/2014/10/05/first-blog-post/"/>
    <updated>2014-10-05T00:00:00-05:00</updated>
-   <id>http://uc-dipp.github.io/blog/2014/10/05/first-blog-post</id>
+   <id>http://lucaluca.github.io/blog/2014/10/05/first-blog-post</id>
    <content type="html">&lt;p&gt;&lt;em&gt;So many data tools, so little time!&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;introducing:-dipp-speed-data-ing&quot;&gt;Introducing: DiPP Speed Data-ing&lt;/h2&gt;
@@ -58,9 +58,9 @@
  
  <entry>
    <title>Hack Harris 12 - OpenRefine and Regex</title>
-   <link href="http://uc-dipp.github.io/haha/2014/09/08/openrefine-and-regex/"/>
+   <link href="http://lucaluca.github.io/haha/2014/09/08/openrefine-and-regex/"/>
    <updated>2014-09-08T00:00:00-05:00</updated>
-   <id>http://uc-dipp.github.io/haha/2014/09/08/openrefine-and-regex</id>
+   <id>http://lucaluca.github.io/haha/2014/09/08/openrefine-and-regex</id>
    <content type="html">&lt;p&gt;This week at Hack Harris (Wednesday at 6pm in 140B) we&amp;#39;ll be starting with an intro to &lt;a href=&quot;https://xmail.uchicago.edu/owa/redir.aspx?C=RNF7qgZ4_0eFQe-yUrUS1Y4QRH_pn9EI8SoFycB__xOo-DajSNt9rzLvQRIMlQCjJni1v4xewUQ.&amp;amp;URL=http%3a%2f%2fopenrefine.org%2f&quot;&gt;OpenRefine&lt;/a&gt;, previously Google Refine. If you could &lt;a href=&quot;https://xmail.uchicago.edu/owa/redir.aspx?C=RNF7qgZ4_0eFQe-yUrUS1Y4QRH_pn9EI8SoFycB__xOo-DajSNt9rzLvQRIMlQCjJni1v4xewUQ.&amp;amp;URL=http%3a%2f%2fopenrefine.org%2fdownload.html&quot;&gt;download&lt;/a&gt; and install it before Wednesday, that&amp;#39;d be swell but not mandatory. OpenRefine is a hybrid database and spreadsheet, borrowing parts of each to make tedious data cleaning of big data sets still tedious but slightly less annoying. &lt;/p&gt;
 
 &lt;p&gt;We&amp;#39;ll also be exploring the marvelous world of regular expressions, a widespread tool for searching text that can be used in practically any language, as well as in OpenRefine. Inspired by &lt;a href=&quot;http://xkcd.com/1313/&quot;&gt;xkcd&lt;/a&gt;, we&amp;#39;ll take a look at a great &lt;a href=&quot;http://www.regular-expressions.info/dot.html&quot;&gt;tutorial&lt;/a&gt; and then play a few rounds of &lt;a href=&quot;https://regex.alf.nu/&quot;&gt;Regex Golf&lt;/a&gt;.&lt;/p&gt;
@@ -69,9 +69,9 @@
  
  <entry>
    <title>DiPP Welcome Back Potluck</title>
-   <link href="http://uc-dipp.github.io/event/2014/09/04/dipp-potluck/"/>
+   <link href="http://lucaluca.github.io/event/2014/09/04/dipp-potluck/"/>
    <updated>2014-09-04T00:00:00-05:00</updated>
-   <id>http://uc-dipp.github.io/event/2014/09/04/dipp-potluck</id>
+   <id>http://lucaluca.github.io/event/2014/09/04/dipp-potluck</id>
    <content type="html">&lt;h4&gt;6pm, Promontory Point Park, Bring food to share&lt;/h4&gt;
 
 &lt;p&gt;While the rest of society said goodbye to summer this weekend, we have another month left. Make it count!  
@@ -81,9 +81,9 @@ Come join us at the DiPP Welcome Back Potluck.  We’ll have a couple small gril
  
  <entry>
    <title>Hack Harris moves to Harris, finally! Wed. 9/3, 6pm, room 140C.</title>
-   <link href="http://uc-dipp.github.io/haha/2014/09/02/haha-back-in-hp/"/>
+   <link href="http://lucaluca.github.io/haha/2014/09/02/haha-back-in-hp/"/>
    <updated>2014-09-02T00:00:00-05:00</updated>
-   <id>http://uc-dipp.github.io/haha/2014/09/02/haha-back-in-hp</id>
+   <id>http://lucaluca.github.io/haha/2014/09/02/haha-back-in-hp</id>
    <content type="html">&lt;p&gt;Remember that Hack Harris will be moving to Harris starting tomorrow. We&amp;#39;ll be in room 140C this week, with a start time of 6pm. This should give all you working folk time to get down to Hyde Park from your real person jobs, easing the transition to becoming a student again. &lt;/p&gt;
 
 &lt;p&gt;This week we&amp;#39;ll cover mapping in CartoDB. We&amp;#39;ll have three or four data sets picked out from the City of Chicago&amp;#39;s open data portal for you all to play with, hopefully in small groups. &lt;/p&gt;
@@ -94,9 +94,9 @@ Come join us at the DiPP Welcome Back Potluck.  We’ll have a couple small gril
  
  <entry>
    <title>Hack Harris potluck on Sept 24 for new students, returning students, and alums!</title>
-   <link href="http://uc-dipp.github.io/haha/event/2014/08/30/haha-potluck/"/>
+   <link href="http://lucaluca.github.io/haha/event/2014/08/30/haha-potluck/"/>
    <updated>2014-08-30T00:00:00-05:00</updated>
-   <id>http://uc-dipp.github.io/haha/event/2014/08/30/haha-potluck</id>
+   <id>http://lucaluca.github.io/haha/event/2014/08/30/haha-potluck</id>
    <content type="html">&lt;p&gt;If you don&amp;#39;t want to think about how summer is ending, ignore this post. But if you like putting things on your calendar weeks in advance, make sure to note the Hack Harris beginning of the school year potluck. &lt;/p&gt;
 
 &lt;p&gt;It&amp;#39;ll be on Wednesday (duh), 9/24 in Hyde Park at 6pm. We&amp;#39;ll remind you again in a few weeks. This will be during orientation week and incoming students are invited. Alums, if you dare to return to Hyde Park, we&amp;#39;d very much welcome your beautiful faces, too! &lt;/p&gt;
@@ -105,9 +105,9 @@ Come join us at the DiPP Welcome Back Potluck.  We’ll have a couple small gril
  
  <entry>
    <title>Hack Harris 10 - JavaScript, and alums and friends always welcome!</title>
-   <link href="http://uc-dipp.github.io/haha/2014/08/25/hack-harris-10-javascript/"/>
+   <link href="http://lucaluca.github.io/haha/2014/08/25/hack-harris-10-javascript/"/>
    <updated>2014-08-25T00:00:00-05:00</updated>
-   <id>http://uc-dipp.github.io/haha/2014/08/25/hack-harris-10-javascript</id>
+   <id>http://lucaluca.github.io/haha/2014/08/25/hack-harris-10-javascript</id>
    <content type="html">&lt;p&gt;I think we set a new HaHa attendance record this past week! Thank you to all the Harris alums who joined us to learn SQL from Jonathan. And to repeat (or maybe state for the first time): Alums, friends, and frenemies are very much welcome at all Hack Harris events. &lt;/p&gt;
 
 &lt;p&gt;This week we&amp;#39;ll dip our toes into JavaScript. HTML organizes web pages, CSS makes them pretty, and JS makes them interactive. Want to make fun interactive maps &lt;a href=&quot;http://derekeder.com/searchable_map_template/&quot;&gt;like this&lt;/a&gt; with open data? Well, you&amp;#39;ll need to know JavaScript. So come get an intro to it this Wednesday @ 5:30 pm at 16 W. Randolph (Argo Tea). &lt;/p&gt;
@@ -116,9 +116,9 @@ Come join us at the DiPP Welcome Back Potluck.  We’ll have a couple small gril
  
  <entry>
    <title>Brett Goldstein, Former CIO for the City of Chicago</title>
-   <link href="http://uc-dipp.github.io/event/2014/08/25/brett-goldstein/"/>
+   <link href="http://lucaluca.github.io/event/2014/08/25/brett-goldstein/"/>
    <updated>2014-08-25T00:00:00-05:00</updated>
-   <id>http://uc-dipp.github.io/event/2014/08/25/brett-goldstein</id>
+   <id>http://lucaluca.github.io/event/2014/08/25/brett-goldstein</id>
    <content type="html">&lt;p&gt;&lt;img height=&quot;300px&quot; src=&quot;/resources/images/brett.png&quot; style=&quot;float:right; margin-left:20px; border-radius: 30px;&quot;&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;12---1pm,-harris-room-289a,-lunch-supplied&quot;&gt;12 - 1pm, Harris Room 289A, lunch supplied&lt;/h4&gt;
@@ -131,9 +131,9 @@ Come join us at the DiPP Welcome Back Potluck.  We’ll have a couple small gril
  
  <entry>
    <title>Announcing our new website!</title>
-   <link href="http://uc-dipp.github.io/new-website"/>
+   <link href="http://lucaluca.github.io/new-website"/>
    <updated>2014-08-11T00:00:00-05:00</updated>
-   <id>http://uc-dipp.github.io/puns-and-python</id>
+   <id>http://lucaluca.github.io/puns-and-python</id>
    <content type="html">&lt;p&gt;Is the air a bit lighter, is gravity working a little harder, today or is it just me? Who knows, but the best way to deal with summer&amp;#39;s halfway point and the existential dread that comes with it is to be productive at this week&amp;#39;s Hack Harris! Come learn more Python, and if you&amp;#39;re lucky maybe you&amp;#39;ll be there when Sarah coins a new data-related pun :)&lt;/p&gt;
 
 &lt;p&gt;Optional things to do before Wednesday:
@@ -144,9 +144,9 @@ Come join us at the DiPP Welcome Back Potluck.  We’ll have a couple small gril
  
  <entry>
    <title>Upcoming events of interest to Hack Harris and DiPP!</title>
-   <link href="http://uc-dipp.github.io/haha/2014/08/05/upcoming-events/"/>
+   <link href="http://lucaluca.github.io/haha/2014/08/05/upcoming-events/"/>
    <updated>2014-08-05T00:00:00-05:00</updated>
-   <id>http://uc-dipp.github.io/haha/2014/08/05/upcoming-events</id>
+   <id>http://lucaluca.github.io/haha/2014/08/05/upcoming-events</id>
    <content type="html">&lt;p&gt;(1) Thursday 8/21, @ 6.30pm: &lt;a href=&quot;http://www.meetup.com/Data-Science-Chicago/events/197145262/&quot;&gt;Quality Storytelling on the Internet with Northwestern&amp;#39;s Knight Lab&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;(2) Friday and Saturday, 9/19 - 9/20: &lt;a href=&quot;http://www.smartchicagocollaborative.org/projects/chicago-school-of-data/&quot;&gt;Chicago School of Data Days&lt;/a&gt;. Register &lt;a href=&quot;https://www.eventbrite.com/e/chicago-school-of-data-days-tickets-12167193403?ref=ebtn&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
@@ -159,9 +159,9 @@ Come join us at the DiPP Welcome Back Potluck.  We’ll have a couple small gril
  
  <entry>
    <title>OpenRefine at Wednesday's Hack Harris!</title>
-   <link href="http://uc-dipp.github.io/haha/2014/08/04/open-refine/"/>
+   <link href="http://lucaluca.github.io/haha/2014/08/04/open-refine/"/>
    <updated>2014-08-04T00:00:00-05:00</updated>
-   <id>http://uc-dipp.github.io/haha/2014/08/04/open-refine</id>
+   <id>http://lucaluca.github.io/haha/2014/08/04/open-refine</id>
    <content type="html">&lt;p&gt;It was wonderful seeing new faces at last week&amp;#39;s Hack Harris! Welcome to the hippest club in town, folks. And thank you to the HaHa contingent who battled the Lolla crowds to attend the mapping learnathon (masterfully organized by the inimitable and apparently indefatigable Matt Gee) on Saturday. &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;This week at Hack Harris we&amp;#39;re going to continue on with OpenRefine&lt;/strong&gt;, which we got a great intro to on Saturday. But worry not if you couldn&amp;#39;t make it this weekend: We&amp;#39;ll be starting over at the very beginning on Wednesday (@ 6pm, the Argo Tea at 16 W. Randolph). &lt;/p&gt;
@@ -182,9 +182,9 @@ Come join us at the DiPP Welcome Back Potluck.  We’ll have a couple small gril
  
  <entry>
    <title>Learn Python and Contribute to the DiPP Website!</title>
-   <link href="http://uc-dipp.github.io/2014-07-28-learn-python-and-contribute-to-the-dipp-website.md"/>
+   <link href="http://lucaluca.github.io/2014-07-28-learn-python-and-contribute-to-the-dipp-website.md"/>
    <updated>2014-07-28T00:00:00-05:00</updated>
-   <id>http://uc-dipp.github.io/learn-python-and-contribute-to-the-dipp-website</id>
+   <id>http://lucaluca.github.io/learn-python-and-contribute-to-the-dipp-website</id>
    <content type="html">&lt;p&gt;Hello lovelies, &lt;/p&gt;
 
 &lt;p&gt;(1) This week&amp;#39;s HaHa* is one not to be missed. If Jonathan&amp;#39;s and my presence isn&amp;#39;t enough of a draw, we&amp;#39;ll also be teaching you intro data exploration in Python! We&amp;#39;ll grab a few exercises from this book: &lt;a href=&quot;http://greenteapress.com/thinkstats/thinkstats.pdf&quot;&gt;http://greenteapress.com/thinkstats/thinkstats.pdf&lt;/a&gt;.&lt;/p&gt;
@@ -211,9 +211,9 @@ Come join us at the DiPP Welcome Back Potluck.  We’ll have a couple small gril
  
  <entry>
    <title>Help us make our website!</title>
-   <link href="http://uc-dipp.github.io/help-us-make-our-website"/>
+   <link href="http://lucaluca.github.io/help-us-make-our-website"/>
    <updated>2014-07-28T00:00:00-05:00</updated>
-   <id>http://uc-dipp.github.io/help-us-make-our-website</id>
+   <id>http://lucaluca.github.io/help-us-make-our-website</id>
    <content type="html">&lt;p&gt;All of YOU are DiPP. So show your DiPP love and devotion by helping to build the website. It&amp;#39;s built with Jekyll and Poole on &lt;a href=&quot;https://github.com/uc-dipp/uc-dipp.github.io&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;If that means nothing to you, fear not. Just &lt;a href=&quot;http://github.com&quot;&gt;sign up for a free GitHub account&lt;/a&gt;, &lt;a href=&quot;mailto:hackharris14@gmail.com&quot;&gt;shoot us your username&lt;/a&gt;, and we&amp;#39;ll add you to the project and give you some pointers on how to get started. If you can Google &amp;quot;how to change font colors in HTML,&amp;quot; you can contribute.&lt;/p&gt;
@@ -222,9 +222,9 @@ Come join us at the DiPP Welcome Back Potluck.  We’ll have a couple small gril
  
  <entry>
    <title>Announcing our new website!</title>
-   <link href="http://uc-dipp.github.io/new-website"/>
+   <link href="http://lucaluca.github.io/new-website"/>
    <updated>2014-07-28T00:00:00-05:00</updated>
-   <id>http://uc-dipp.github.io/announcing-our-new-website</id>
+   <id>http://lucaluca.github.io/announcing-our-new-website</id>
    <content type="html">&lt;div class=&quot;blog-post&quot;&gt;
 	&lt;h3&gt;Announcing the Hack Harris Website!&lt;/h3&gt;
 	&lt;p&gt;Hack Harris is excited to announce the launch of its new &lt;a href=&quot;index.html&quot;&gt;website&lt;/a&gt;, featuring information about the organization (finally!), recommended resources on data science and public policy, pictures of cute animals, and a beautiful new &lt;a href=&quot;index.html&quot;&gt;blog&lt;/a&gt;. Check it out &lt;a href=&quot;index.html&quot;&gt;here&lt;/a&gt;!&lt;/p&gt;
@@ -238,9 +238,9 @@ Come join us at the DiPP Welcome Back Potluck.  We’ll have a couple small gril
  
  <entry>
    <title>Beyonce updates and Hack Harris</title>
-   <link href="http://uc-dipp.github.io/Beyonce"/>
+   <link href="http://lucaluca.github.io/Beyonce"/>
    <updated>2014-07-15T00:00:00-05:00</updated>
-   <id>http://uc-dipp.github.io/Beyonce-updates-and-Harris</id>
+   <id>http://lucaluca.github.io/Beyonce-updates-and-Harris</id>
    <content type="html">&lt;p&gt;(1) Via Adriana, a mesmerizing data visualization of a random NYC taxicab&amp;#39;s day: &lt;a href=&quot;http://nyctaxi.herokuapp.com/&quot;&gt;http://nyctaxi.herokuapp.com/&lt;/a&gt; The underlying data was FOIL&amp;#39;d (NY state version of FOIA) and is here: &lt;a href=&quot;http://chriswhong.com/open-data/foil_nyc_taxi/&quot;&gt;http://chriswhong.com/open-data/foil_nyc_taxi/&lt;/a&gt; &lt;/p&gt;
 
 &lt;p&gt;(2) You all apparently love shortcuts. So in the interest of being service-y, Jonathan will dish out more of what you love tomorrow at Hack Harris. If there&amp;#39;s interest, he will also dive into git and get everyone set up on github and we&amp;#39;ll talk about using the terminal.&lt;/p&gt;
@@ -254,9 +254,9 @@ Lara and Jonathan&lt;/p&gt;
  
  <entry>
    <title>Hack Harris 7.23 v4 final FINAL</title>
-   <link href="http://uc-dipp.github.io/haha/2014/07/14/v4-final/"/>
+   <link href="http://lucaluca.github.io/haha/2014/07/14/v4-final/"/>
    <updated>2014-07-14T00:00:00-05:00</updated>
-   <id>http://uc-dipp.github.io/haha/2014/07/14/v4-final</id>
+   <id>http://lucaluca.github.io/haha/2014/07/14/v4-final</id>
    <content type="html">&lt;p&gt;Have you heard this new buzzword &amp;quot;collaboration&amp;quot;? What does it mean? And what is &amp;quot;version control&amp;quot;? Is that like when I save my document under a different name every time I make an edit? And THEN does your computer always crash when using tracked changes in Word? I know mine does. Then I have to go back to version 1 and start over. &lt;em&gt;(That&amp;#39;s why I pasted a picture of a cute rabbit into version 1, to give me the strength to keep going.)&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Some people are talking about a website that lets you work on documents with others without worrying about version control -- even work AT THE SAME TIME. And you always have old versions of all files so you can&amp;#39;t accidentally overwrite last year&amp;#39;s budget. It&amp;#39;s also rumored to give +100,000 hacker points. &lt;em&gt;Can this be real?&lt;/em&gt;&lt;/p&gt;
@@ -273,9 +273,9 @@ Lara and Jonathan&lt;/p&gt;
  
  <entry>
    <title>HaHa LateX</title>
-   <link href="http://uc-dipp.github.io/haha/2014/06/30/HaHaLateX/"/>
+   <link href="http://lucaluca.github.io/haha/2014/06/30/HaHaLateX/"/>
    <updated>2014-06-30T00:00:00-05:00</updated>
-   <id>http://uc-dipp.github.io/haha/2014/06/30/HaHaLateX</id>
+   <id>http://lucaluca.github.io/haha/2014/06/30/HaHaLateX</id>
    <content type="html">&lt;p&gt;Hello lovelies,&lt;/p&gt;
 
 &lt;p&gt;Please don&amp;#39;t get blown away by the wind tonight... so that you&amp;#39;ll be able to come to Hack Harris this Wednesday @ 6pm. Last week some ne&amp;#39;er-do-wells destroyed my old econometrics problem sets as we learned LaTeX. We also talked DIPP logo and branding (thanks for attending, Andi!). &lt;/p&gt;
