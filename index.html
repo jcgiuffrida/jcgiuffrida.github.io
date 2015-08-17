@@ -1,0 +1,55 @@
+---
+layout: default
+title: Home
+---
+
+<h1>Jonathan Giuffrida</h1>
+
+
+
+<!-- add all my favorite quotes throughout the site
+  fix the duplicate "Stories" in the sidebar
+-->
+
+<p>I am a healthcare policy professional with <a href="http://instagram.com/bunny_report">two bunnies</a> and a <a href="https://www.linkedin.com/profile/view?id=153873587">girlfriend</a>.</p>
+
+
+<div class="group">
+  <div class="activity" onclick="window.location='/about';">
+    <h3><a href="/about">About me</a></h3>
+    <p>See the places I've worked and the things I know.</p>
+  </div>
+  <div class="activity" onclick="window.location='/stories';">
+    <h3><a href="/stories">Stories</a></h3>
+    <p>See things I've made.</p>
+  </div>
+  <div class="activity" onclick="window.location='/reading';">
+    <h3><a href="/reading">Reading</a></h3>
+    <p>See books I've read since 2007.</p>
+  </div>
+  <div class="activity" onclick="window.location='/translations';">
+    <h3><a href="/translations">Translations</a></h3>
+    <p>Sometimes I translate things for fun.</p>
+    </div>
+</div>
+<br>
+<hr>
+
+<h3>Recent Stories</h3>
+<div class="group">
+{% assign counter = 0 %}
+{% for post in site.categories.event %}
+    {% if counter < 4 %}
+    <div class="panel{% if post.image %}" style="background-image: url('{{ post.image }}'); {% else %} no-image{% endif %}" onclick="window.location='{{ post.url }}';">
+      <div class="transparency">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p class="post-date">{{ post.eventdate | date: "%B %-d, %Y" }}</p>
+      </div>
+    </div>
+    {% assign counter=counter | plus:1 %}
+  {% endif %}
+{% endfor %}
+</div>
+<hr>
+
+
