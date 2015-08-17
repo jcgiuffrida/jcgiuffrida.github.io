@@ -19,20 +19,19 @@
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
         {% if node.title != null %}
+          {% if node.url contains "stories/page" %} <!-- skip extra stories pages--> {% else %}
           {% if node.layout == "page" %}
             <li class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}">
               <a href="{{ node.url }}">{{ node.title }}</a>
             </li>
-          {% endif %}
+          {% endif %}{% endif %}
         {% endif %}
       {% endfor %}
       <br>
     
-      <br>
-      <a href="/atom.xml" style="float:right;"><img src="/resources/feed.png" height="32rem" width="32rem" /></a>
-      <li class="sidebar-nav-item">
-        <a href="{{ site.github.repo }}">GitHub</a>
-      </li>
+      <a class="sidebar-icon" href="http://www.facebook.com/jcgiuffrida" style="float:right;"><img src="/resources/fb.png" height="32rem" width="32rem" /></a>
+      <a class="sidebar-icon" href="http://www.linkedin.com/in/jcgiuffrida" style="float:right;"><img src="/resources/li.png" height="32rem" width="32rem" /></a>
+      <a class="sidebar-icon" href="https://github.com/lucaluca" style="float:right;"><img src="/resources/gh.png" height="32rem" width="32rem" /></a>
       
     </ul>
     

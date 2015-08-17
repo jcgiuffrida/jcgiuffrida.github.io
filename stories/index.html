@@ -1,0 +1,61 @@
+---
+layout: page
+title: Stories
+---
+
+<p>Things I've created, learned, or helped out with.</p>
+<hr>
+<a name="posts"></a>
+{% if paginator.previous_page %}
+  <div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="/stories/page{{paginator.next_page}}#posts">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="/stories/#posts">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="/stories/page{{paginator.previous_page}}#posts">Newer</a>
+    {% endif %}  
+  </div>
+{% endif %}
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h2 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+
+    <span class="post-date">
+      {% if post.eventdate %}
+        {{ post.eventdate | date_to_long_string }}
+      {% else %}
+        {{ post.date | date_to_string }}
+      {% endif %}
+    </span>
+
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="/stories/page{{paginator.next_page}}#posts">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="/stories/#posts">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="/stories/page{{paginator.previous_page}}#posts">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>

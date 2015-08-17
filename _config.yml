@@ -18,6 +18,7 @@ author:
   url:            http://lucaluca.github.io
 
 paginate:         5  # 5 posts per page
+paginate_path:    '/stories/page:num/'
 
 # Custom vars
 version:          0.1

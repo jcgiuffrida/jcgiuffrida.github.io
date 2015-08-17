@@ -33,6 +33,7 @@
 	padding: 10px;
 	margin: 0 10px 10px 0;
 	border-radius: 25px;
+	transition: background-color 0.25s;
 }
 .activity h3 {
 	text-align: center;
@@ -70,6 +71,7 @@
 }
 .group {
 	zoom: 1; /* IE6&7 */ 
+	margin-right: -2rem;
 }
 
 
@@ -84,6 +86,7 @@ button {
 	cursor: pointer;
 	opacity: 0.9;	
 	outline: none;
+	transition: opacity 0.25s;
 }
 button:hover {
 	opacity: 1;
@@ -104,7 +107,12 @@ button:hover {
 .sidebar .logo img {
 	margin: 0 auto 0.2rem auto;
 	border-radius: 50%;
+	transition: opacity 0.25s;
 }
+.sidebar .logo img:hover {
+	opacity:0.8;
+}
+
 .sidebar .lead {
 	font-size: 0.85rem;
 }
@@ -112,9 +120,10 @@ button:hover {
 	padding: 0.3rem 1rem;
 }
 
-#mc_embed_signup label {
-	color: #eee;
+.sidebar .sidebar-icon {
+	margin-left: 5px;
 }
+
 
 
 /* panels */
@@ -165,9 +174,14 @@ button:hover {
 .panel:hover .transparency {
 	opacity: 0.4;
 }
+.panel .transparency {
+	transition: opacity 0.25s;
+}
+
 .panel.blog:hover .transparency {
 	opacity: 0.5;
 }
+
 .panel a:hover{
 	text-decoration: none;
 }
