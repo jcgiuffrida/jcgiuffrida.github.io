@@ -4,7 +4,7 @@
  <title>Jonathan Giuffrida</title>
  <link href="http://lucaluca.github.io/atom.xml" rel="self"/>
  <link href="http://lucaluca.github.io/"/>
- <updated>2015-08-16T23:29:02-05:00</updated>
+ <updated>2015-09-15T23:02:53-05:00</updated>
  <id>http://lucaluca.github.io</id>
  <author>
    <name>Jonathan Giuffrida</name>
@@ -13,104 +13,119 @@
 
  
  <entry>
-   <title>First blog post!</title>
-   <link href="http://lucaluca.github.io/blog/2014/10/05/first-blog-post/"/>
-   <updated>2014-10-05T00:00:00-05:00</updated>
-   <id>http://lucaluca.github.io/blog/2014/10/05/first-blog-post</id>
+   <title>Pindar</title>
+   <link href="http://lucaluca.github.io/project/2015/08/01/Pindar/"/>
+   <updated>2015-08-01T00:00:00-05:00</updated>
+   <id>http://lucaluca.github.io/project/2015/08/01/Pindar</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;So many data tools, so little time!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/resources/images/speed-dataing.jpg&quot;&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Someone wrote about me</title>
+   <link href="http://lucaluca.github.io/project/2015/07/01/writeup/"/>
+   <updated>2015-07-01T00:00:00-05:00</updated>
+   <id>http://lucaluca.github.io/project/2015/07/01/writeup</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://harris.uchicago.edu/news-and-events/features/student-campus-news/mastering-art-and-science-data-visualization&quot;&gt;Mastering the Art (and Science) of Data Visualization&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Blobs, or Smart Clusters</title>
+   <link href="http://lucaluca.github.io/project/2015/06/15/Blobs/"/>
+   <updated>2015-06-15T00:00:00-05:00</updated>
+   <id>http://lucaluca.github.io/project/2015/06/15/Blobs</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;So many data tools, so little time!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/resources/images/speed-dataing.jpg&quot;&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Harris Insider</title>
+   <link href="http://lucaluca.github.io/project/2015/06/01/Harris-Insider/"/>
+   <updated>2015-06-01T00:00:00-05:00</updated>
+   <id>http://lucaluca.github.io/project/2015/06/01/Harris-Insider</id>
+   <content type="html">&lt;p&gt;some stuff about me&lt;/p&gt;
+
+&lt;h3 id=&quot;intro-paragraph-about-harris-evaluations&quot;&gt;intro paragraph about harris evaluations&lt;/h3&gt;
+
+&lt;h3 id=&quot;what&amp;#39;s-important?&quot;&gt;what&amp;#39;s important?&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;easy to access and use&lt;/li&gt;
+&lt;li&gt;balance between too much and too little information&lt;/li&gt;
+&lt;li&gt;stakeholders: students, faculty, administration&lt;/li&gt;
+&lt;li&gt;fairness&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-did-i-make-it?&quot;&gt;how did i make it?&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;drupal&lt;/li&gt;
+&lt;li&gt;SQL&lt;/li&gt;
+&lt;li&gt;jQuery and Highcharts&lt;/li&gt;
+&lt;li&gt;d3 splash page&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what&amp;#39;s-the-impact?&quot;&gt;what&amp;#39;s the impact?&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;22,000 evaluations&lt;/li&gt;
+&lt;li&gt;changing the way courses are launched and reviewed&lt;/li&gt;
+&lt;li&gt;write-up of me&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;takeaway?&quot;&gt;takeaway?&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;this isn&amp;#39;t hard to do!&lt;/li&gt;
+&lt;li&gt;use language from the writeup of me&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Social Determinants of Health in Chicago's Community Areas</title>
+   <link href="http://lucaluca.github.io/project/2015/02/28/SDH/"/>
+   <updated>2015-02-28T23:00:00-06:00</updated>
+   <id>http://lucaluca.github.io/project/2015/02/28/SDH</id>
+   <content type="html">&lt;p&gt;As an Innovation Fellow at the Chicago Department of Public Health, I was asked to find a way to visualize how social determinants--a combination of a community&amp;#39;s economic and social characteristics, the built environment, and people&amp;#39;s behaviors--influence health and wellness. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/resources/images/speed-dataing.jpg&quot;&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Plenario</title>
+   <link href="http://lucaluca.github.io/project/2014/09/23/Plenario/"/>
+   <updated>2014-09-23T00:00:00-05:00</updated>
+   <id>http://lucaluca.github.io/project/2014/09/23/Plenario</id>
    <content type="html">&lt;p&gt;&lt;em&gt;So many data tools, so little time!&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;introducing:-dipp-speed-data-ing&quot;&gt;Introducing: DiPP Speed Data-ing&lt;/h2&gt;
 
-&lt;p&gt;A chance to mingle with DiPP&amp;#39;s favorite data programs.&lt;/p&gt;
-
-&lt;p&gt;What: Five minute presentations (we will be strict on the time limit) on various DiPP members’ favorite hacks or data programs. &lt;/p&gt;
-
-&lt;p&gt;Come get inspired for a HaHa project, learn who to ask for help with a program, or get a brief intro to a new program.&lt;/p&gt;
-
-&lt;p&gt;When: October 7th 4:30-5:00 at the HaHa (Hack Harris Rm 289B)&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/event/2014/10/07/Speed-Dataing/&quot;&gt;More information&lt;/a&gt;&lt;/p&gt;
-
 &lt;p&gt;&lt;img src=&quot;/resources/images/speed-dataing.jpg&quot;&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
-   <title>Hack Harris 12 - OpenRefine and Regex</title>
-   <link href="http://lucaluca.github.io/haha/2014/09/08/openrefine-and-regex/"/>
-   <updated>2014-09-08T00:00:00-05:00</updated>
-   <id>http://lucaluca.github.io/haha/2014/09/08/openrefine-and-regex</id>
-   <content type="html">&lt;p&gt;This week at Hack Harris (Wednesday at 6pm in 140B) we&amp;#39;ll be starting with an intro to &lt;a href=&quot;https://xmail.uchicago.edu/owa/redir.aspx?C=RNF7qgZ4_0eFQe-yUrUS1Y4QRH_pn9EI8SoFycB__xOo-DajSNt9rzLvQRIMlQCjJni1v4xewUQ.&amp;amp;URL=http%3a%2f%2fopenrefine.org%2f&quot;&gt;OpenRefine&lt;/a&gt;, previously Google Refine. If you could &lt;a href=&quot;https://xmail.uchicago.edu/owa/redir.aspx?C=RNF7qgZ4_0eFQe-yUrUS1Y4QRH_pn9EI8SoFycB__xOo-DajSNt9rzLvQRIMlQCjJni1v4xewUQ.&amp;amp;URL=http%3a%2f%2fopenrefine.org%2fdownload.html&quot;&gt;download&lt;/a&gt; and install it before Wednesday, that&amp;#39;d be swell but not mandatory. OpenRefine is a hybrid database and spreadsheet, borrowing parts of each to make tedious data cleaning of big data sets still tedious but slightly less annoying. &lt;/p&gt;
-
-&lt;p&gt;We&amp;#39;ll also be exploring the marvelous world of regular expressions, a widespread tool for searching text that can be used in practically any language, as well as in OpenRefine. Inspired by &lt;a href=&quot;http://xkcd.com/1313/&quot;&gt;xkcd&lt;/a&gt;, we&amp;#39;ll take a look at a great &lt;a href=&quot;http://www.regular-expressions.info/dot.html&quot;&gt;tutorial&lt;/a&gt; and then play a few rounds of &lt;a href=&quot;https://regex.alf.nu/&quot;&gt;Regex Golf&lt;/a&gt;.&lt;/p&gt;
+   <title>Data in Public Policy</title>
+   <link href="http://lucaluca.github.io/project/2014/09/01/DIPP/"/>
+   <updated>2014-09-01T00:00:00-05:00</updated>
+   <id>http://lucaluca.github.io/project/2014/09/01/DIPP</id>
+   <content type="html">&lt;p&gt;A website that looks suspiciously like my own.&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
-   <title>DiPP Welcome Back Potluck</title>
-   <link href="http://lucaluca.github.io/event/2014/09/04/dipp-potluck/"/>
-   <updated>2014-09-04T00:00:00-05:00</updated>
-   <id>http://lucaluca.github.io/event/2014/09/04/dipp-potluck</id>
-   <content type="html">&lt;h4&gt;6pm, Promontory Point Park, Bring food to share&lt;/h4&gt;
-
-&lt;p&gt;While the rest of society said goodbye to summer this weekend, we have another month left. Make it count!  
-Come join us at the DiPP Welcome Back Potluck.  We’ll have a couple small grills going, so bring stuff to grill and side dishes to share.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Hack Harris moves to Harris, finally! Wed. 9/3, 6pm, room 140C.</title>
-   <link href="http://lucaluca.github.io/haha/2014/09/02/haha-back-in-hp/"/>
-   <updated>2014-09-02T00:00:00-05:00</updated>
-   <id>http://lucaluca.github.io/haha/2014/09/02/haha-back-in-hp</id>
-   <content type="html">&lt;p&gt;Remember that Hack Harris will be moving to Harris starting tomorrow. We&amp;#39;ll be in room 140C this week, with a start time of 6pm. This should give all you working folk time to get down to Hyde Park from your real person jobs, easing the transition to becoming a student again. &lt;/p&gt;
-
-&lt;p&gt;This week we&amp;#39;ll cover mapping in CartoDB. We&amp;#39;ll have three or four data sets picked out from the City of Chicago&amp;#39;s open data portal for you all to play with, hopefully in small groups. &lt;/p&gt;
-
-&lt;p&gt;If you know any incoming students — or even if you just see one standing scared in the cafe of Harris, confused and unsure about how to find, well, basically anything in that building — point them to Hack Harris. &lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Hack Harris potluck on Sept 24 for new students, returning students, and alums!</title>
-   <link href="http://lucaluca.github.io/haha/event/2014/08/30/haha-potluck/"/>
-   <updated>2014-08-30T00:00:00-05:00</updated>
-   <id>http://lucaluca.github.io/haha/event/2014/08/30/haha-potluck</id>
-   <content type="html">&lt;p&gt;If you don&amp;#39;t want to think about how summer is ending, ignore this post. But if you like putting things on your calendar weeks in advance, make sure to note the Hack Harris beginning of the school year potluck. &lt;/p&gt;
-
-&lt;p&gt;It&amp;#39;ll be on Wednesday (duh), 9/24 in Hyde Park at 6pm. We&amp;#39;ll remind you again in a few weeks. This will be during orientation week and incoming students are invited. Alums, if you dare to return to Hyde Park, we&amp;#39;d very much welcome your beautiful faces, too! &lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Hack Harris 10 - JavaScript, and alums and friends always welcome!</title>
-   <link href="http://lucaluca.github.io/haha/2014/08/25/hack-harris-10-javascript/"/>
-   <updated>2014-08-25T00:00:00-05:00</updated>
-   <id>http://lucaluca.github.io/haha/2014/08/25/hack-harris-10-javascript</id>
-   <content type="html">&lt;p&gt;I think we set a new HaHa attendance record this past week! Thank you to all the Harris alums who joined us to learn SQL from Jonathan. And to repeat (or maybe state for the first time): Alums, friends, and frenemies are very much welcome at all Hack Harris events. &lt;/p&gt;
-
-&lt;p&gt;This week we&amp;#39;ll dip our toes into JavaScript. HTML organizes web pages, CSS makes them pretty, and JS makes them interactive. Want to make fun interactive maps &lt;a href=&quot;http://derekeder.com/searchable_map_template/&quot;&gt;like this&lt;/a&gt; with open data? Well, you&amp;#39;ll need to know JavaScript. So come get an intro to it this Wednesday @ 5:30 pm at 16 W. Randolph (Argo Tea). &lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Speed Dataing</title>
-   <link href="http://lucaluca.github.io/event/2014/08/01/post-1/"/>
-   <updated>2014-08-01T00:00:00-05:00</updated>
-   <id>http://lucaluca.github.io/event/2014/08/01/post-1</id>
-   <content type="html">&lt;p&gt;So many data tools, so little time!&lt;/p&gt;
-
-&lt;p&gt;Introducing: DiPP Speed Data-ing&lt;/p&gt;
-
-&lt;p&gt;A chance to mingle with DiPP&amp;#39;s favorite data programs.&lt;/p&gt;
-
-&lt;p&gt;What: Five minute presentations (we will be strict on the time limit) on various DiPP members’ favorite hacks or data programs. &lt;/p&gt;
-
-&lt;p&gt;Come get inspired for a HaHa project, learn who to ask for help with a program, or get a brief intro to a new program.&lt;/p&gt;
-
-&lt;p&gt;When: October 7th 4:30-5:00 at the HaHa (Hack Harris Rm 289B)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/resources/images/speed-dataing.jpg&quot;&gt;&lt;/p&gt;
+   <title>Chicago Policy Review Data Visualization</title>
+   <link href="http://lucaluca.github.io/project/2014/05/01/CPR/"/>
+   <updated>2014-05-01T00:00:00-05:00</updated>
+   <id>http://lucaluca.github.io/project/2014/05/01/CPR</id>
+   <content type="html">&lt;p&gt;A website that looks suspiciously like my own.&lt;/p&gt;
 </content>
  </entry>
  

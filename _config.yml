@@ -10,7 +10,7 @@ permalink:        pretty
 # Setup
 title:            'Jonathan Giuffrida'
 tagline:          'Adventures in Data Analysis and Bunnies'
-description:      'I work at the intersection of quantitative analysis, healthcare, urban policy, and humanistic learning.'
+description:      'I live at the intersection of quantitative analysis, healthcare, urban policy, and humanistic learning.'
 url:              http://lucaluca.github.io
 baseurl:          /
 author:
@@ -18,7 +18,7 @@ author:
   url:            http://lucaluca.github.io
 
 paginate:         5  # 5 posts per page
-paginate_path:    '/stories/page:num/'
+paginate_path:    '/projects/page:num/'
 
 # Custom vars
 version:          0.1

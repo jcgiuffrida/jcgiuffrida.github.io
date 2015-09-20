@@ -1,27 +1,32 @@
 /* custom css for the whole page */
 
 /* executive board */
-.boardmember {
+.resume {
 	float:left;
 	margin: 0 20px 20px 0;
 	padding: 10px 10px 0 10px;
-	border: 3px solid #800000;
+	border: 3px solid #75b5aa;
 	border-radius: 10px;
 	float: left;
-	height: 425px;
-	width: 210px;
+	min-height: 200px;
+	width: 45%;
 }
 
-.boardmember img {
+.resume img {
 	border-radius: 50%;
-	width: 184px;
+	width: 50%;
+	margin: 0 auto 5px auto;
 }
 
-.boardmember .caption {
-	font-size: 0.65rem;
+.resume a>img:hover {
+	opacity: 0.8;
 }
-.boardmember .caption b {
-	font-size: 0.9rem;
+
+.resume .caption {
+	font-size: 0.7rem;
+}
+.resume .caption b {
+	font-size: 0.8rem;
 }
 
 /* activities */
@@ -40,7 +45,7 @@
 	margin-top: 5px;
 }
 .activity p {
-	font-size: 0.75em;
+	font-size: 0.9em;
 }
 .activity:hover {
 	background-color: #ccc;
@@ -78,7 +83,7 @@
 /* buttons look awful */
 button {
 	font-size: 1em;
-	background-color: #800000;
+	background-color: #75b5aa;
 	color: #eee;
 	padding: 10px;
 	border: none;
@@ -93,11 +98,6 @@ button:hover {
 }
 
 /* sidebar */
-
-/* make dipp sidebar more readable */
-.theme-base-08 .sidebar {
-	color: rgba(0,0,0,1);
-}
 
 /* this looks so crappy on Windows but whatever */
 .sidebar {
@@ -125,6 +125,49 @@ button:hover {
 }
 
 
+/* poetry */
+.poem {
+	background-color: #ddd;
+	border-radius: 30px;
+}
+
+pre.text {
+	margin-top: 50px;
+	padding-bottom: 25px;
+	background: none;
+	border-left: 10px solid #aaa;
+	border-radius: 30px;
+	font-family: Georgia, 'Times New Roman', Serif;
+}
+
+.poem .title {
+	padding: 20px 0 10px 0;
+	text-align: center;
+	font-weight: bold;
+	color: #000;
+}
+
+.poem .author {
+	float: left;
+	margin-left: 30px;
+	font-size: 0.8em;
+}
+
+.poem .date {
+	float: right;
+	margin-right: 50px;
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+.toc ul {
+	list-style-type: none;
+	font-size: 0.9em;
+}
+.toc span {
+	margin-left: 15px;
+	font-style: italic;
+}
 
 /* panels */
 .panel {
@@ -137,9 +180,6 @@ button:hover {
 	min-height: 200px;
 }
 
-.panel.blog {
-	width:98%;
-}
 
 .panel .transparency {
 	width: 100%;
@@ -147,7 +187,7 @@ button:hover {
 	margin: 0;
 	padding: 0;
 	background-color: #fff;
-	opacity: 0.65;
+	opacity: 0.8;
 	border-radius: 15px;
 	min-height: 200px;
 }
@@ -164,6 +204,11 @@ button:hover {
 
 .panel .post-date {
 	color: #000;
+	font-size: 1.0rem;
+}
+
+.panel .post-excerpt {
+	font-size: 0.9rem;
 }
 
 .panel.no-image {
@@ -172,14 +217,10 @@ button:hover {
 
 /* hover actions */
 .panel:hover .transparency {
-	opacity: 0.4;
+	opacity: 0.6;
 }
 .panel .transparency {
 	transition: opacity 0.25s;
-}
-
-.panel.blog:hover .transparency {
-	opacity: 0.5;
 }
 
 .panel a:hover{
@@ -187,4 +228,70 @@ button:hover {
 }
 .panel a:active {
 	text-decoration: none;
+}
+
+/* footer navigation */
+nav.footer-nav[role="navigation"] {
+	position: fixed;
+	bottom: 0;
+}
+nav.footer-nav[role="navigation"] li {
+	float: left;
+	margin: 0 4px 0 0;
+	font-size: 14px;
+	}
+nav.footer-nav[role="navigation"] ul {
+	list-style-type: none;
+}
+nav.footer-nav[role="navigation"] li a {
+	float: left;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #fff;
+	background: #bbb;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	}
+nav.footer-nav[role="navigation"] li a:hover,
+nav.footer-nav[role="navigation"] li a:focus {
+	background: #999;
+	}
+nav.footer-nav[role="navigation"] li a:active {
+	background: #888;
+	}
+nav.footer-nav[role="navigation"] li.active a {
+	color: #fff;
+	background: #75b5aa;
+	cursor: default;
+}					
+
+/* quotes */
+.quote {
+	text-align: center;
+	color: #a8a8a8;
+	margin: 20px 20% 50px 20%;
+	font-size: 1.1em;
+	font-style: italic;
+	position: relative;
+}
+.quote .author {
+	position: absolute;
+	right: 0;
+	font-size: 0.8em;
+}
+
+/* reading */
+.dataTables_length, .dataTables_filter, .dataTables_info{
+	font-size: 0.8em;
+}
+table#reading {
+	font-size: 0.9em;
+}
+
+table#reading th {
+	font-size: 1em;
 }

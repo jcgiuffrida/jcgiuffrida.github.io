@@ -20,12 +20,10 @@
   <link rel="stylesheet" href="/public/css/hyde.css">
   <link rel="stylesheet" href="/public/css/custom.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
-  <!-- mailchimp -->
-  <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
-  <style type="text/css">
-    .sidebar #mc_embed_signup{background:#a02020;clear:left; font:14px Helvetica,Arial,sans-serif;}
-    .theme-base-haha #mc_embed_signup{background:#22C5F0;}
-  </style>
+  
+   <link rel="stylesheet" href="/public/css/datatable.css">
+  
+ 
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
@@ -36,7 +34,7 @@
 
 
 <!-- jQuery -->
-<script src="/public/js/jquery-2.1.4.min.js"></script>
+<script src="/public/js/jquery-1.11.1.min.js"></script>
 </head>
 
 
@@ -46,16 +44,13 @@
   <div class="container sidebar">
 	<div class="sidebar-about">
       <a href="/" class="logo"><img src="/resources/images/bunnies.jpg" width="150rem" height="150rem" /></a>
-      <p class="lead">I work at the intersection of quantitative analysis, healthcare, urban policy, and humanistic learning.</p>
+      <p class="lead">I live at the intersection of quantitative analysis, healthcare, urban policy, and humanistic learning.</p>
     </div>
 
     <ul class="sidebar-nav">
       <li class="sidebar-nav-item">
         <a href="/">Home</a>
       </li>
-
-      
-
       <!-- dipp pages -->
       
       
@@ -78,24 +73,19 @@
         
           
           
-        
-      
-        
-          
-          
-        
-      
-        
-          
-          
-        
-      
-        
-          
-          
             <li class="sidebar-nav-item">
-              <a href="/stories/">Stories</a>
+              <a href="/projects/">Projects</a>
             </li>
+          
+        
+      
+        
+          
+          
+        
+      
+        
+          
           
         
       
@@ -118,7 +108,7 @@
         
       
         
-           <!-- skip extra stories pages--> 
+           <!-- skip extra projects pages--> 
         
       
       <br>
@@ -137,11 +127,36 @@
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Reading</h1>
-  <h2 id="things-i&#39;ve-read">Things I&#39;ve Read</h2>
+  <a href="/poetry" style="float: right; position: relative; top: -50px;"><button type="button">Poetry</button></a>
 
-<p>Insert datatables here</p>
-
+<div class="quote">carmina erunt formae tot monumenta tuae.
+  <div class="author">Propertius</div>
 </div>
+
+<table id="reading" class="display" cellspacing="0" width="100%">
+<thead>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+
+<nav class="footer-nav" role="navigation">
+  <ul>
+    <li class="active"><a href="#">All</a></li>
+    <li><a href="#">English</a></li>
+    <li><a href="#">Spanish</a></li>
+    <li><a href="#">Arabic</a></li>
+    <li><a href="#">Italian</a></li>
+    <li><a href="#">French</a></li>
+  </ul>
+</nav>
+<script src="/public/js/jquery.dataTables.js"></script>
+<script src="/public/js/jquery.dataTables.sorting.js"></script>
+<script src="/public/js/papaparse.min.js"></script>
+</div>
+
+    <script src="/public/js/footer.js"></script>
 
     </div>
   </body>

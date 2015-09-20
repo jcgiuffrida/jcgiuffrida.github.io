@@ -19,13 +19,13 @@ title: Home
     <h3><a href="/about">About me</a></h3>
     <p>See the places I've worked and the things I know.</p>
   </div>
-  <div class="activity" onclick="window.location='/stories';">
-    <h3><a href="/stories">Stories</a></h3>
+  <div class="activity" onclick="window.location='/projects';">
+    <h3><a href="/projects">Projects</a></h3>
     <p>See things I've made.</p>
   </div>
   <div class="activity" onclick="window.location='/reading';">
     <h3><a href="/reading">Reading</a></h3>
-    <p>See books I've read since 2007.</p>
+    <p>See books I've read and poetry I've learned since 2007.</p>
   </div>
   <div class="activity" onclick="window.location='/translations';">
     <h3><a href="/translations">Translations</a></h3>
@@ -35,15 +35,16 @@ title: Home
 <br>
 <hr>
 
-<h3>Recent Stories</h3>
+<h3>Recent Projects</h3>
 <div class="group">
 {% assign counter = 0 %}
-{% for post in site.categories.event %}
-    {% if counter < 4 %}
+{% for post in site.posts %}
+    {% if counter < 6 %}
     <div class="panel{% if post.image %}" style="background-image: url('{{ post.image }}'); {% else %} no-image{% endif %}" onclick="window.location='{{ post.url }}';">
       <div class="transparency">
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <p class="post-date">{{ post.eventdate | date: "%B %-d, %Y" }}</p>
+        <p class="post-date">{{ post.date | date: "%B %Y" }}</p>
+        <p class="post-excerpt">{{ post.excerpt }}</p>
       </div>
     </div>
     {% assign counter=counter | plus:1 %}
@@ -52,4 +53,17 @@ title: Home
 </div>
 <hr>
 
+<!--
 
+objective: one-stop-shop for jonny gee
+contact and links
+theme: favorite quotes
+reading: fix foreign characters, integrate with footer links, sort by lname at first, hide language and lname, style datatables, show 25 per page
+press/written by me
+use j/k to navigate through poetry
+
+
+google analytics
+
+
+-->
