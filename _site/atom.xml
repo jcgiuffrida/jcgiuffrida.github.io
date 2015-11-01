@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Jonathan Giuffrida</title>
- <link href="http://lucaluca.github.io/atom.xml" rel="self"/>
- <link href="http://lucaluca.github.io/"/>
- <updated>2015-09-15T23:02:53-05:00</updated>
- <id>http://lucaluca.github.io</id>
+ <link href="https://lucaluca.github.io/atom.xml" rel="self"/>
+ <link href="https://lucaluca.github.io/"/>
+ <updated>2015-11-01T16:16:58-06:00</updated>
+ <id>https://lucaluca.github.io</id>
  <author>
    <name>Jonathan Giuffrida</name>
    <email></email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Pindar</title>
-   <link href="http://lucaluca.github.io/project/2015/08/01/Pindar/"/>
+   <link href="https://lucaluca.github.io/project/2015/08/01/Pindar/"/>
    <updated>2015-08-01T00:00:00-05:00</updated>
-   <id>http://lucaluca.github.io/project/2015/08/01/Pindar</id>
+   <id>https://lucaluca.github.io/project/2015/08/01/Pindar</id>
    <content type="html">&lt;p&gt;&lt;em&gt;So many data tools, so little time!&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/resources/images/speed-dataing.jpg&quot;&gt;&lt;/p&gt;
@@ -25,18 +25,18 @@
  
  <entry>
    <title>Someone wrote about me</title>
-   <link href="http://lucaluca.github.io/project/2015/07/01/writeup/"/>
+   <link href="https://lucaluca.github.io/project/2015/07/01/writeup/"/>
    <updated>2015-07-01T00:00:00-05:00</updated>
-   <id>http://lucaluca.github.io/project/2015/07/01/writeup</id>
+   <id>https://lucaluca.github.io/project/2015/07/01/writeup</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://harris.uchicago.edu/news-and-events/features/student-campus-news/mastering-art-and-science-data-visualization&quot;&gt;Mastering the Art (and Science) of Data Visualization&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Blobs, or Smart Clusters</title>
-   <link href="http://lucaluca.github.io/project/2015/06/15/Blobs/"/>
+   <link href="https://lucaluca.github.io/project/2015/06/15/Blobs/"/>
    <updated>2015-06-15T00:00:00-05:00</updated>
-   <id>http://lucaluca.github.io/project/2015/06/15/Blobs</id>
+   <id>https://lucaluca.github.io/project/2015/06/15/Blobs</id>
    <content type="html">&lt;p&gt;&lt;em&gt;So many data tools, so little time!&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/resources/images/speed-dataing.jpg&quot;&gt;&lt;/p&gt;
@@ -45,9 +45,9 @@
  
  <entry>
    <title>Harris Insider</title>
-   <link href="http://lucaluca.github.io/project/2015/06/01/Harris-Insider/"/>
+   <link href="https://lucaluca.github.io/project/2015/06/01/Harris-Insider/"/>
    <updated>2015-06-01T00:00:00-05:00</updated>
-   <id>http://lucaluca.github.io/project/2015/06/01/Harris-Insider</id>
+   <id>https://lucaluca.github.io/project/2015/06/01/Harris-Insider</id>
    <content type="html">&lt;p&gt;some stuff about me&lt;/p&gt;
 
 &lt;h3 id=&quot;intro-paragraph-about-harris-evaluations&quot;&gt;intro paragraph about harris evaluations&lt;/h3&gt;
@@ -89,9 +89,9 @@
  
  <entry>
    <title>Social Determinants of Health in Chicago's Community Areas</title>
-   <link href="http://lucaluca.github.io/project/2015/02/28/SDH/"/>
+   <link href="https://lucaluca.github.io/project/2015/02/28/SDH/"/>
    <updated>2015-02-28T23:00:00-06:00</updated>
-   <id>http://lucaluca.github.io/project/2015/02/28/SDH</id>
+   <id>https://lucaluca.github.io/project/2015/02/28/SDH</id>
    <content type="html">&lt;p&gt;As an Innovation Fellow at the Chicago Department of Public Health, I was asked to find a way to visualize how social determinants--a combination of a community&amp;#39;s economic and social characteristics, the built environment, and people&amp;#39;s behaviors--influence health and wellness. &lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/resources/images/speed-dataing.jpg&quot;&gt;&lt;/p&gt;
@@ -100,9 +100,9 @@
  
  <entry>
    <title>Plenario</title>
-   <link href="http://lucaluca.github.io/project/2014/09/23/Plenario/"/>
+   <link href="https://lucaluca.github.io/project/2014/09/23/Plenario/"/>
    <updated>2014-09-23T00:00:00-05:00</updated>
-   <id>http://lucaluca.github.io/project/2014/09/23/Plenario</id>
+   <id>https://lucaluca.github.io/project/2014/09/23/Plenario</id>
    <content type="html">&lt;p&gt;&lt;em&gt;So many data tools, so little time!&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;introducing:-dipp-speed-data-ing&quot;&gt;Introducing: DiPP Speed Data-ing&lt;/h2&gt;
@@ -113,18 +113,18 @@
  
  <entry>
    <title>Data in Public Policy</title>
-   <link href="http://lucaluca.github.io/project/2014/09/01/DIPP/"/>
+   <link href="https://lucaluca.github.io/project/2014/09/01/DIPP/"/>
    <updated>2014-09-01T00:00:00-05:00</updated>
-   <id>http://lucaluca.github.io/project/2014/09/01/DIPP</id>
+   <id>https://lucaluca.github.io/project/2014/09/01/DIPP</id>
    <content type="html">&lt;p&gt;A website that looks suspiciously like my own.&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Chicago Policy Review Data Visualization</title>
-   <link href="http://lucaluca.github.io/project/2014/05/01/CPR/"/>
+   <link href="https://lucaluca.github.io/project/2014/05/01/CPR/"/>
    <updated>2014-05-01T00:00:00-05:00</updated>
-   <id>http://lucaluca.github.io/project/2014/05/01/CPR</id>
+   <id>https://lucaluca.github.io/project/2014/05/01/CPR</id>
    <content type="html">&lt;p&gt;A website that looks suspiciously like my own.&lt;/p&gt;
 </content>
  </entry>

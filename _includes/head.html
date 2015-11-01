@@ -1,4 +1,10 @@
 <head>
+  <!-- enforce ssl -->
+  <script>
+var host = "lucaluca.github.io";
+if ((host == window.location.host) && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
+</script>
   <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
@@ -24,7 +30,7 @@
   {% if page.title == 'Reading' %}
    <link rel="stylesheet" href="/public/css/datatable.css">
   {% endif %}
- 
+
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
@@ -32,6 +38,7 @@
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
 
 <!-- jQuery -->

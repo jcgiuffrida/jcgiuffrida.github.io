@@ -11,11 +11,12 @@ permalink:        pretty
 title:            'Jonathan Giuffrida'
 tagline:          'Adventures in Data Analysis and Bunnies'
 description:      'I live at the intersection of quantitative analysis, healthcare, urban policy, and humanistic learning.'
-url:              http://lucaluca.github.io
+url:              https://lucaluca.github.io
+enforce_ssl:      lucaluca.github.io
 baseurl:          /
 author:
   name:           'Jonathan Giuffrida'
-  url:            http://lucaluca.github.io
+  url:            https://lucaluca.github.io
 
 paginate:         5  # 5 posts per page
 paginate_path:    '/projects/page:num/'
