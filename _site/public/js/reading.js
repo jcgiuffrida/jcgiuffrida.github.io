@@ -4,7 +4,7 @@ function createTOC(){
   $('.poem .title').each(function(index, t){
     if($(this).closest('.poem').is(':visible')){
       $(this).attr('id', 'poem' + i);
-      $('.toc ul').append('<li><a href="#poem' + i + '">' + $(this).text() + '</a>' + 
+      $('.toc ul').append('<li><a href="#poem' + i + '">' + $(this).text() + '</a>' +
         '<span>' + $(this).closest('.poem').find('.author').text() + '</span></li>');
     }
     i += 1;
@@ -14,7 +14,7 @@ function createTOC(){
 var readingTable;
 
 loadReading = function(d){
-  $('#reading thead').append('<tr><th>title</th><th>author</th>' + 
+  $('#reading thead').append('<tr><th>title</th><th>author</th>' +
     '<th>date</th><th>rating</th><th>lname</th><th>language</th></tr>');
   d.forEach(function(b){
     var book = $('<tr></tr>');
@@ -31,6 +31,9 @@ loadReading = function(d){
     "order": [[ 2, "desc" ]],
     "paging": false,
     "scrollY": 500,
+    "oLanguage": {
+      "sInfoFiltered": ""
+    },
     "columnDefs": [
       {
         "targets": [ 4, 5 ],
@@ -55,7 +58,7 @@ $(document).ready(function(){
       $('.footer-nav li').removeClass('active');
       $(this).closest('li').addClass('active');
       var lang = $(this).text().toLowerCase();
-      if ($('#reading').length){
+      if ($('#reading').length){ // page is reading
         if (lang == 'all'){
           readingTable.fnFilter('', 5);
         } else {

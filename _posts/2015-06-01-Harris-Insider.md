@@ -5,7 +5,7 @@ categories: project
 date: '2015-06-01 00:00:00 -0500'
 excerpt: A platform for exploring and visualizing course evaluations
 image: '/resources/images/bbq.jpg'
-tags: viz platform
+tags: viz platform insider
 ---
 
 some stuff about me

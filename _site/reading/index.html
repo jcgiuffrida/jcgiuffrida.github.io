@@ -26,6 +26,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
   <link rel="stylesheet" href="/public/css/hyde.css">
   <link rel="stylesheet" href="/public/css/custom.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="/public/css/font-awesome-4.4.0/css/font-awesome.min.css">
   
    <link rel="stylesheet" href="/public/css/datatable.css">
   
@@ -42,6 +43,17 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 
 <!-- jQuery -->
 <script src="/public/js/jquery-1.11.1.min.js"></script>
+<!-- GA -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60569315-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 
 
@@ -106,12 +118,20 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
         
       
         
+           
+        
+      
+        
           
           
             <li class="sidebar-nav-item">
               <a href="/translations/">Translations</a>
             </li>
           
+        
+      
+        
+           <!-- skip extra projects pages--> 
         
       
         
@@ -134,10 +154,10 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Reading</h1>
-  <a href="/poetry" style="float: right; position: relative; top: -50px;"><button type="button">Poetry</button></a>
+  <a href="/poetry" style="float: right; position: relative; top: -50px;"><button type="button">See Poetry</button></a>
 
-<div class="quote">carmina erunt formae tot monumenta tuae.
-  <div class="author">Propertius</div>
+<div class="quote">For it is humanly certain that most of us remember very little of what we have read. To open almost any book a second time is to be reminded that we had forgotten well-nigh everything that the writer told us. Parting from the narrator and his narrative, we retain only a fading impression; and he, as it were, takes the book away from us and tucks it under his arm.
+  <div class="author">Siegfried Sassoon</div>
 </div>
 
 <table id="reading" class="display" cellspacing="0" width="100%">
@@ -163,7 +183,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 <script src="/public/js/papaparse.min.js"></script>
 </div>
 
-    <script src="/public/js/footer.js"></script>
+    <script src="/public/js/reading.js"></script>
 
     </div>
   </body>

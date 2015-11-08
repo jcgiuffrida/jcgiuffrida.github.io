@@ -4,13 +4,22 @@
  <title>Jonathan Giuffrida</title>
  <link href="https://lucaluca.github.io/atom.xml" rel="self"/>
  <link href="https://lucaluca.github.io/"/>
- <updated>2015-11-01T16:16:58-06:00</updated>
+ <updated>2015-11-08T02:58:02-06:00</updated>
  <id>https://lucaluca.github.io</id>
  <author>
    <name>Jonathan Giuffrida</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Valuing the Liberal Arts</title>
+   <link href="https://lucaluca.github.io/project/2015/10/26/la/"/>
+   <updated>2015-10-26T00:00:00-05:00</updated>
+   <id>https://lucaluca.github.io/project/2015/10/26/la</id>
+   <content type="html">&lt;p&gt;Liberal arts.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Pindar</title>
@@ -92,9 +101,33 @@
    <link href="https://lucaluca.github.io/project/2015/02/28/SDH/"/>
    <updated>2015-02-28T23:00:00-06:00</updated>
    <id>https://lucaluca.github.io/project/2015/02/28/SDH</id>
-   <content type="html">&lt;p&gt;As an Innovation Fellow at the Chicago Department of Public Health, I was asked to find a way to visualize how social determinants--a combination of a community&amp;#39;s economic and social characteristics, the built environment, and people&amp;#39;s behaviors--influence health and wellness. &lt;/p&gt;
+   <content type="html">&lt;p&gt;As an Innovation Fellow at the Chicago Department of Public Health, I was asked to find a way to visualize how social determinants&amp;mdash;a combination of a community&amp;#39;s economic and social characteristics, the built environment, and people&amp;#39;s behaviors&amp;mdash;influence health and wellness. The result is an interactive scatterplot that helps users visualize any combination of these variables in Chicago&amp;#39;s 77 community areas. &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/resources/images/speed-dataing.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://lucaluca.github.io/SDH&quot;&gt;&lt;img src=&quot;/resources/images/healthychiviz2.png&quot; width=&quot;100%&quot;&gt;&lt;/a&gt;
+&lt;em&gt;Interactive scatterplot of social determinants and health outcomes&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;project-scope&quot;&gt;Project scope&lt;/h3&gt;
+
+&lt;p&gt;Social determinants of health are increasingly being recognized as critical to understanding and improving the health of communities. Some, such as air quality and access to fresh foods, have very clear effects on health; others like rent burden (spending &amp;gt;30% of income on rent), tree density, and unemployment have less clear impacts on health. &lt;/p&gt;
+
+&lt;p&gt;Because so many new associations between social determinants and health outcomes are beginning to be discovered and studied, health policy analysts and public health officials need ways to explore large numbers of possible associations in a way that is clear, easy to interpret, and not too visually complex. &lt;/p&gt;
+
+&lt;h3 id=&quot;the-solution&quot;&gt;The solution&lt;/h3&gt;
+
+&lt;p&gt;Borrowing from &lt;a href=&quot;http://bl.ocks.org/msbarry/9911363&quot;&gt;this visualization of WHO data&lt;/a&gt;, I built an interactive scatterplot that allows users to plot Chicago&amp;#39;s community areas using any three demographic, social determinant, health behavior, or health outcomes on the X and Y axes and as the size of the points. &lt;/p&gt;
+
+&lt;p&gt;A number of features were included to meet the needs of health care professionals, the intended audience. The 100+ indicators were grouped into categories, and those that were rates clearly state their units. Hovering over a bubble shows which community area is represented and its values along all three selected variables, and a table below the chart shows summary statistics. The bubbles are colored according to regions of the city, and users can highlight entire regions to focus on. A few examples, such as the &amp;ldquo;Hispanic Paradox&amp;rdquo;, guide the user through some relationships between social determinants and health outcomes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/resources/images/healthychiviz3.png&quot; width=&quot;40%&quot;&gt;
+&lt;em&gt;Hovering over a bubble reveals information about that community area.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The scatterplot is built in &lt;a href=&quot;http://d3js.org/&quot;&gt;d3.js&lt;/a&gt;, a powerful JavaScript library for visualization. Thanks to GitHub Pages, building and hosting it is 100% free, and the code is open source on &lt;a href=&quot;https://github.com/lucaluca/SDH&quot;&gt;GitHub&lt;/a&gt; and free for others to use or modify. &lt;/p&gt;
+
+&lt;h3 id=&quot;impact&quot;&gt;Impact&lt;/h3&gt;
+
+&lt;p&gt;The scatterplot has received very positive feedback from a number of public health departments, providers, collaborative groups, and research institutions. It is frequently shown in presentations and meetings as an example of a powerful yet simple way to visualize complex data. &lt;/p&gt;
+
+&lt;p&gt;In a city like Chicago, communities with high levels of hardship often face difficulties in many areas at the same time, such as high unemployment, poor public transportation, and reduced access to healthcare. Lightning strikes these same neighborhoods every single day. Hopefully, visualizations like these can start and fuel important conversations and deeper analyses of interconnections that degrade Chicago residents&amp;#39; ability to lead healthy lives.&lt;/p&gt;
 </content>
  </entry>
  
@@ -121,11 +154,29 @@
  </entry>
  
  <entry>
+   <title>Mapping Pedestrian and Cyclist Fatalities</title>
+   <link href="https://lucaluca.github.io/project/2014/07/10/pedestrians/"/>
+   <updated>2014-07-10T00:00:00-05:00</updated>
+   <id>https://lucaluca.github.io/project/2014/07/10/pedestrians</id>
+   <content type="html">&lt;p&gt;Cars and trucks&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Chicago Policy Review Data Visualization</title>
    <link href="https://lucaluca.github.io/project/2014/05/01/CPR/"/>
    <updated>2014-05-01T00:00:00-05:00</updated>
    <id>https://lucaluca.github.io/project/2014/05/01/CPR</id>
    <content type="html">&lt;p&gt;A website that looks suspiciously like my own.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Price Inflation in Venezuela in Two Charts</title>
+   <link href="https://lucaluca.github.io/project/2014/02/24/venezuela/"/>
+   <updated>2014-02-24T23:00:00-06:00</updated>
+   <id>https://lucaluca.github.io/project/2014/02/24/venezuela</id>
+   <content type="html">&lt;p&gt;Venezuela&amp;#39;s inflation.&lt;/p&gt;
 </content>
  </entry>
  

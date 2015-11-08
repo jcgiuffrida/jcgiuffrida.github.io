@@ -4,7 +4,12 @@ title: Projects
 ---
 
 <p>Things I've created, learned, or helped out with.</p>
-<hr>
+
+<div class="quote">The greatest use of a life is to spend it on something that will outlast it.
+  <div class="author">William James</div>
+</div>
+
+
 <a name="posts"></a>
 {% if paginator.previous_page %}
   <div class="pagination">
@@ -35,8 +40,12 @@ title: Projects
         {{ post.date | date: "%B %Y" }}
       {% endif %}
     </span>
+    {% assign e = post.content | split: '<h3 id' %}
 
-    {{ post.content | truncate: 500, '...' }} <br><a href="{{ post.url }}"><button type="button">Continue reading</button></a>
+    {{ e[0] }}
+    <!--{{ post.content | truncatewords: 75, ' ...' }} -->
+    <br>
+    <a href="{{ post.url }}"><button type="button">Continue reading</button></a>
   </div>
   {% endfor %}
 </div>

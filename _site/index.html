@@ -26,6 +26,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
   <link rel="stylesheet" href="/public/css/hyde.css">
   <link rel="stylesheet" href="/public/css/custom.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="/public/css/font-awesome-4.4.0/css/font-awesome.min.css">
   
 
 
@@ -40,6 +41,17 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 
 <!-- jQuery -->
 <script src="/public/js/jquery-1.11.1.min.js"></script>
+<!-- GA -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60569315-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 
 
@@ -104,12 +116,20 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
         
       
         
+           
+        
+      
+        
           
           
             <li class="sidebar-nav-item">
               <a href="/translations/">Translations</a>
             </li>
           
+        
+      
+        
+           <!-- skip extra projects pages--> 
         
       
         
@@ -134,37 +154,47 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 
 
 
-<!-- add all my favorite quotes throughout the site
-  fix the duplicate "Stories" in the sidebar
--->
-
-<p>I am a healthcare policy professional with <a href="http://instagram.com/bunny_report">two bunnies</a> and a <a href="https://www.linkedin.com/profile/view?id=153873587">girlfriend</a>.</p>
+<p>I am a healthcare policy professional with <a href="http://instagram.com/bunny_report">two bunnies</a>.</p>
+<p>This site, obviously, is under construction. Please don't take anything on it literally.</p>
 
 
 <div class="group">
   <div class="activity" onclick="window.location='/about';">
     <h3><a href="/about">About me</a></h3>
-    <p>See the places I've worked and the things I know.</p>
+    <div class="icon"><i class="fa fa-mortar-board fa-2x"></i></div>
+    <p>My background and experience.</p>
   </div>
   <div class="activity" onclick="window.location='/projects';">
     <h3><a href="/projects">Projects</a></h3>
-    <p>See things I've made.</p>
+    <div class="icon"><i class="fa fa-area-chart fa-2x"></i></div>
+    <p>A selection of things I&rsquo;ve made.</p>
   </div>
   <div class="activity" onclick="window.location='/reading';">
     <h3><a href="/reading">Reading</a></h3>
-    <p>See books I've read and poetry I've learned since 2007.</p>
+    <div class="icon"><i class="fa fa-book fa-2x"></i></div>
+    <p>See books I've read and poetry I've learned since 2006.</p>
   </div>
   <div class="activity" onclick="window.location='/translations';">
     <h3><a href="/translations">Translations</a></h3>
+    <div class="icon"><i class="fa fa-quote-left fa-2x"></i></div>
     <p>Sometimes I translate things for fun.</p>
     </div>
 </div>
-<br>
-<hr>
 
-<h3>Recent Projects</h3>
+<h3>Recent Stories</h3>
 <div class="group">
 
+
+    
+    <div class="panel" style="background-image: url('/resources/images/bbq.jpg'); " onclick="window.location='/project/2015/10/26/la/';">
+      <div class="transparency">
+        <h2><a href="/project/2015/10/26/la/">Valuing the Liberal Arts</a></h2>
+        <p class="post-date">October 2015</p>
+        <p class="post-excerpt">Can we find a better way to estimate the benefits of a broad education?</p>
+      </div>
+    </div>
+    
+  
 
     
     <div class="panel" style="background-image: url('/resources/images/bbq.jpg'); " onclick="window.location='/project/2015/08/01/Pindar/';">
@@ -215,7 +245,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
       <div class="transparency">
         <h2><a href="/project/2015/02/28/SDH/">Social Determinants of Health in Chicago's Community Areas</a></h2>
         <p class="post-date">February 2015</p>
-        <p class="post-excerpt">A visualization created for the Chicago Department of Public Health.</p>
+        <p class="post-excerpt">An interactive scatterplot visualization.</p>
       </div>
     </div>
     
@@ -233,23 +263,36 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
   
 
     
+    <div class="panel" style="background-image: url('/resources/images/bbq.jpg'); " onclick="window.location='/project/2014/09/01/DIPP/';">
+      <div class="transparency">
+        <h2><a href="/project/2014/09/01/DIPP/">Data in Public Policy</a></h2>
+        <p class="post-date">September 2014</p>
+        <p class="post-excerpt">For data.</p>
+      </div>
+    </div>
+    
+  
+
+    
+
+    
 
     
 
 </div>
-<hr>
 
 <!--
 
 objective: one-stop-shop for jonny gee
 contact and links
 theme: favorite quotes
-reading: fix foreign characters, integrate with footer links, sort by lname at first, hide language and lname, style datatables, show 25 per page
-press/written by me
+press/written by me:
+- IEEE
+- theresa's blobs
+- sean's stuff
+- tbq (la, venezuela, cars)
+- harris profile
 use j/k to navigate through poetry
-
-
-google analytics
 
 
 -->

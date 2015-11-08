@@ -1,6 +1,30 @@
 /* custom css for the whole page */
 
-/* executive board */
+/********** images in post content ****************/
+
+/* on hover over image that has a link, change opacity */
+.content img {
+	margin: 0 auto 1rem auto; /* center */
+}
+
+.content a>img {
+	transition: opacity 0.25s;
+}
+
+.content a>img:hover {
+	opacity: 0.7;
+}
+
+/* captions */
+.content a + em,
+.content img + em {
+	text-align: center;
+	display:block;
+	margin-top:-10px;
+	font-size:0.9em;
+}
+
+/* my resume */
 .resume {
 	float:left;
 	margin: 0 20px 20px 0;
@@ -10,16 +34,17 @@
 	float: left;
 	min-height: 200px;
 	width: 45%;
+	min-width:250px;
 }
 
 .resume img {
-	border-radius: 50%;
-	width: 50%;
-	margin: 0 auto 5px auto;
+	width: 60%;
+	margin: 15px auto 30px auto;
+	border-radius: 0;
 }
 
-.resume a>img:hover {
-	opacity: 0.8;
+.resume a:hover>img {
+	opacity: 0.7;
 }
 
 .resume .caption {
@@ -34,6 +59,7 @@
 	float: left;
 	width: 48%;
 	min-height: 205px;
+	min-width: 250px;
 	border: 3px solid #ccc;
 	padding: 10px;
 	margin: 0 10px 10px 0;
@@ -57,6 +83,13 @@
 .activity a:active{
 	text-decoration:none;
 }
+
+.activity .icon {
+	text-align: center;
+	color: #75b5aa;
+	padding-bottom: 15px;
+}
+
 /* images */
 .post div>img {
 	float:right;
@@ -67,21 +100,22 @@
 }
 
 /* clearfix */
-.group:before, .group:after { 
+.group:before, .group:after {
 	content: "";
-	display: table; 
+	display: table;
 }
 .group:after {
-	clear: both; 
+	clear: both;
 }
 .group {
-	zoom: 1; /* IE6&7 */ 
+	zoom: 1; /* IE6&7 */
 	margin-right: -2rem;
 }
 
 
 /* buttons look awful */
-button {
+button,
+.content a.btn {
 	font-size: 1em;
 	background-color: #75b5aa;
 	color: #eee;
@@ -89,12 +123,20 @@ button {
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
-	opacity: 0.9;	
+	opacity: 0.9;
 	outline: none;
 	transition: opacity 0.25s;
 }
-button:hover {
+
+.content a.btn {
+	color: #fff;
+}
+
+button:hover,
+.content a.btn:hover,
+.content a.btn:focus {
 	opacity: 1;
+	text-decoration: none;
 }
 
 /* sidebar */
@@ -133,6 +175,7 @@ button:hover {
 
 pre.text {
 	margin-top: 50px;
+	padding-left: 1.2rem;
 	padding-bottom: 25px;
 	background: none;
 	border-left: 10px solid #aaa;
@@ -173,6 +216,7 @@ pre.text {
 .panel {
 	float: left;
 	width: 48%;
+	min-width: 250px;
 	margin: 0.3rem;
 	border-radius: 15px;
 	text-align: center;
@@ -267,13 +311,12 @@ nav.footer-nav[role="navigation"] li.active a {
 	color: #fff;
 	background: #75b5aa;
 	cursor: default;
-}					
+}
 
 /* quotes */
 .quote {
-	text-align: center;
 	color: #a8a8a8;
-	margin: 20px 20% 50px 20%;
+	margin: 20px 18% 50px 18%;
 	font-size: 1.1em;
 	font-style: italic;
 	position: relative;
@@ -286,8 +329,13 @@ nav.footer-nav[role="navigation"] li.active a {
 
 /* reading */
 .dataTables_length, .dataTables_filter, .dataTables_info{
-	font-size: 0.8em;
+	font-size: 0.9em;
 }
+
+.dataTables_filter input {
+	font-size: 1em;
+}
+
 table#reading {
 	font-size: 0.9em;
 }
