@@ -4,7 +4,7 @@
  <title>Jonathan Giuffrida</title>
  <link href="https://lucaluca.github.io/atom.xml" rel="self"/>
  <link href="https://lucaluca.github.io/"/>
- <updated>2015-11-08T03:07:15-06:00</updated>
+ <updated>2015-11-08T19:04:24-06:00</updated>
  <id>https://lucaluca.github.io</id>
  <author>
    <name>Jonathan Giuffrida</name>
@@ -17,7 +17,11 @@
    <link href="https://lucaluca.github.io/project/2015/10/26/la/"/>
    <updated>2015-10-26T00:00:00-05:00</updated>
    <id>https://lucaluca.github.io/project/2015/10/26/la</id>
-   <content type="html">&lt;p&gt;Liberal arts.&lt;/p&gt;
+   <content type="html">&lt;p&gt;For the &lt;em&gt;Brooklyn Quarterly&lt;/em&gt;, I investigated various attempts to place a value on a liberal arts education, especially as contrasted with one in STEM alone. I interviewed Shirley Tilghman, President-emerita of Princeton, as a leader and public thinker on this topic.&lt;/p&gt;
+
+&lt;h3 id=&quot;impact&quot;&gt;Impact&lt;/h3&gt;
+
+&lt;p&gt;The article, &amp;quot;Valuing the Liberal Arts&amp;quot;, was &lt;a href=&quot;http://brooklynquarterly.org/valuing-the-liberal-arts/&quot;&gt;published&lt;/a&gt; in Issue 6 of &lt;em&gt;The Brooklyn Quarterly&lt;/em&gt;.&lt;/p&gt;
 </content>
  </entry>
  
@@ -26,9 +30,42 @@
    <link href="https://lucaluca.github.io/project/2015/08/01/Pindar/"/>
    <updated>2015-08-01T00:00:00-05:00</updated>
    <id>https://lucaluca.github.io/project/2015/08/01/Pindar</id>
-   <content type="html">&lt;p&gt;&lt;em&gt;So many data tools, so little time!&lt;/em&gt;&lt;/p&gt;
+   <content type="html">&lt;div class=&quot;quote&quot;&gt;These fragments I have shored against my ruins.
+  &lt;div class=&quot;author&quot;&gt;T.S. Eliot &lt;a href=&quot;https://pindar.pythonanywhere.com/Pindar/default/quotes/91&quot;&gt;&lt;i class=&quot;fa fa-external-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;/resources/images/speed-dataing.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;As someone with experience studying and working in the humanities, I know that quotes, or small pieces of text such as poems and song lyrics, are essential to self-expression for a very large number of people. Yet it seems that the Internet lacks a good place for people to collect and analyze small pieces of text and study how they interconnect. Pindar, named for one of the first Greek lyric poets, is an attempt to create that place, and a side project over the past few months.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://pindar.pythonanywhere.com&quot;&gt;&lt;img src=&quot;/resources/images/pindar.png&quot; width=&quot;100%&quot; style=&quot;border: 2px solid #999;&quot;&gt;&lt;/a&gt;
+&lt;div class=&quot;caption&quot;&gt;Intelligent, user-powered site for quote collection and analysis.&lt;/div&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;project-scope&quot;&gt;Project scope&lt;/h3&gt;
+
+&lt;p&gt;Pindar differs from other quote sites in a number of important ways:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It is 100% user-powered, meaning that actual people submit and vouch for every quote&lt;/li&gt;
+&lt;li&gt;It is open source under the MIT license, making it free to use, copy, and contribute to the code base&lt;/li&gt;
+&lt;li&gt;It makes all data available via intelligent searching and an API for use in other applications&lt;/li&gt;
+&lt;li&gt;It is built from the ground up to be &lt;em&gt;smarter&lt;/em&gt;: quotes can be linked to each other on the basis of allusion, influence, and similar topics, and selected into user-created anthologies&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pindar also includes functionality you would expect, such as the ability to rate and comment on quotes, and edit all information submitted by other users for accuracy. &lt;/p&gt;
+
+&lt;h3 id=&quot;the-solution&quot;&gt;The solution&lt;/h3&gt;
+
+&lt;p&gt;Pindar is built using the Python framework web2py, which helps quickly create complex sites, and hosted by PythonAnywhere. The concept and initial code was a collaboration between me and &lt;a href=&quot;https://github.com/mrbeskin&quot;&gt;mrbeskin&lt;/a&gt;, and the current version is by me. &lt;/p&gt;
+
+&lt;p&gt;All the quotes on this site link to their pages on Pindar.&lt;/p&gt;
+
+&lt;h3 id=&quot;impact&quot;&gt;Impact&lt;/h3&gt;
+
+&lt;p&gt;Pindar is built to scale, and we have many more features under development. Join us! &lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;a class=&quot;btn&quot; href=&quot;https://pindar.pythonanywhere.com&quot; style=&quot;padding: 10px 20%;&quot;&gt;Check it out&lt;/a&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br/&gt;
+To help build a better home for quotes, visit Pindar on &lt;a href=&quot;https://github.com/lucaluca/Pindar&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
@@ -46,10 +83,7 @@
    <link href="https://lucaluca.github.io/project/2015/06/15/Blobs/"/>
    <updated>2015-06-15T00:00:00-05:00</updated>
    <id>https://lucaluca.github.io/project/2015/06/15/Blobs</id>
-   <content type="html">&lt;p&gt;&lt;em&gt;So many data tools, so little time!&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/resources/images/speed-dataing.jpg&quot;&gt;&lt;/p&gt;
-</content>
+   <content type="html"></content>
  </entry>
  
  <entry>
@@ -104,7 +138,7 @@
    <content type="html">&lt;p&gt;As an Innovation Fellow at the Chicago Department of Public Health, I was asked to find a way to visualize how social determinants&amp;mdash;a combination of a community&amp;#39;s economic and social characteristics, the built environment, and people&amp;#39;s behaviors&amp;mdash;influence health and wellness. The result is an interactive scatterplot that helps users visualize any combination of these variables in Chicago&amp;#39;s 77 community areas. &lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://lucaluca.github.io/SDH&quot;&gt;&lt;img src=&quot;/resources/images/healthychiviz2.png&quot; width=&quot;100%&quot;&gt;&lt;/a&gt;
-&lt;em&gt;Interactive scatterplot of social determinants and health outcomes&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;caption&quot;&gt;Interactive scatterplot of social determinants and health outcomes&lt;/div&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;project-scope&quot;&gt;Project scope&lt;/h3&gt;
 
@@ -136,12 +170,7 @@
    <link href="https://lucaluca.github.io/project/2014/09/23/Plenario/"/>
    <updated>2014-09-23T00:00:00-05:00</updated>
    <id>https://lucaluca.github.io/project/2014/09/23/Plenario</id>
-   <content type="html">&lt;p&gt;&lt;em&gt;So many data tools, so little time!&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;introducing:-dipp-speed-data-ing&quot;&gt;Introducing: DiPP Speed Data-ing&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/resources/images/speed-dataing.jpg&quot;&gt;&lt;/p&gt;
-</content>
+   <content type="html"></content>
  </entry>
  
  <entry>
@@ -160,6 +189,14 @@
    <id>https://lucaluca.github.io/project/2014/07/10/pedestrians</id>
    <content type="html">&lt;p&gt;Cars and trucks&lt;/p&gt;
 </content>
+ </entry>
+ 
+ <entry>
+   <title>Spatial Analysis of Crime in Bogotá</title>
+   <link href="https://lucaluca.github.io/project/2014/06/30/wb/"/>
+   <updated>2014-06-30T00:00:00-05:00</updated>
+   <id>https://lucaluca.github.io/project/2014/06/30/wb</id>
+   <content type="html"></content>
  </entry>
  
  <entry>

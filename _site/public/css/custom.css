@@ -16,13 +16,22 @@
 }
 
 /* captions */
-.content a + em,
+.content .caption,
 .content img + em {
 	text-align: center;
+	font-weight: normal;
+	font-style: italic;
 	display:block;
 	margin-top:-10px;
 	font-size:0.9em;
 }
+
+/* clearfix */
+.clearfix:after {
+	display: table;
+	content: "";
+	clear: both;
+	}
 
 /* my resume */
 .resume {
@@ -47,10 +56,10 @@
 	opacity: 0.7;
 }
 
-.resume .caption {
+.resume .description {
 	font-size: 0.7rem;
 }
-.resume .caption b {
+.resume .description b {
 	font-size: 0.8rem;
 }
 
@@ -65,9 +74,9 @@
 	margin: 0 10px 10px 0;
 	border-radius: 25px;
 	transition: background-color 0.25s;
+	text-align: center;
 }
 .activity h3 {
-	text-align: center;
 	margin-top: 5px;
 }
 .activity p {
@@ -85,7 +94,6 @@
 }
 
 .activity .icon {
-	text-align: center;
 	color: #75b5aa;
 	padding-bottom: 15px;
 }
@@ -231,7 +239,7 @@ pre.text {
 	margin: 0;
 	padding: 0;
 	background-color: #fff;
-	opacity: 0.8;
+	opacity: 0.85;
 	border-radius: 15px;
 	min-height: 200px;
 }
@@ -261,7 +269,7 @@ pre.text {
 
 /* hover actions */
 .panel:hover .transparency {
-	opacity: 0.6;
+	opacity: 0.65;
 }
 .panel .transparency {
 	transition: opacity 0.25s;
@@ -327,6 +335,16 @@ nav.footer-nav[role="navigation"] li.active a {
 	font-size: 0.8em;
 }
 
+.quote i {
+	position: relative;
+	left: 10px;
+	transition: color 0.25s;
+}
+
+.quote a:hover>i {
+	color: #55958a;
+}
+
 /* reading */
 .dataTables_length, .dataTables_filter, .dataTables_info{
 	font-size: 0.9em;
@@ -342,4 +360,46 @@ table#reading {
 
 table#reading th {
 	font-size: 1em;
+}
+
+
+/* translations */
+.translations {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.translations li,
+.translation-author {
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 7px 7px 7px 0;
+	display: inline-block;
+	transition: background-color 0.25s;
+}
+
+.translations li:hover,
+.translations li:active {
+	background-color: #ccc;
+}
+
+.translation-author {
+	margin-top: 20px;
+	font-weight: bold;
+	background-color: #ccc;
+	border: 2px solid #999;
+}
+
+.translation {
+	margin-top: 55px;
+}
+
+.translation p {
+	margin-bottom: 0;
+}
+
+tab {
+	display: inline-block;
+	margin-left: 50px;
 }

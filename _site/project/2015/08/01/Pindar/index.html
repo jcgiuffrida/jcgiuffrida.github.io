@@ -68,74 +68,19 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
       <li class="sidebar-nav-item">
         <a href="/">Home</a>
       </li>
-      <!-- dipp pages -->
-      
-      
-        
-          
-          
-        
-      
-        
-          
-          
-            <li class="sidebar-nav-item">
-              <a href="/about/">About Me</a>
-            </li>
-          
-        
-      
-        
-      
-        
-          
-          
-            <li class="sidebar-nav-item">
-              <a href="/projects/">Projects</a>
-            </li>
-          
-        
-      
-        
-          
-          
-        
-      
-        
-          
-          
-        
-      
-        
-          
-          
-            <li class="sidebar-nav-item">
-              <a href="/reading/">Reading</a>
-            </li>
-          
-        
-      
-        
-           
-        
-      
-        
-          
-          
-            <li class="sidebar-nav-item">
-              <a href="/translations/">Translations</a>
-            </li>
-          
-        
-      
-        
-           <!-- skip extra projects pages--> 
-        
-      
-        
-           <!-- skip extra projects pages--> 
-        
-      
+      <li class="sidebar-nav-item">
+        <a href="/about/">About Me</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a href="/projects/">Projects</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a href="/reading/">Reading</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a href="/translations/">Translations</a>
+      </li>      
+
       <br>
     
       <a class="sidebar-icon" href="http://www.facebook.com/jcgiuffrida" style="float:right;"><img src="/resources/fb.png" height="32rem" width="32rem" /></a>
@@ -153,9 +98,42 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
       <div class="post">
   <h1 class="post-title">Pindar</h1>
   <span class="post-date">August 2015</span>
-  <p><em>So many data tools, so little time!</em></p>
+  <div class="quote">These fragments I have shored against my ruins.
+  <div class="author">T.S. Eliot <a href="https://pindar.pythonanywhere.com/Pindar/default/quotes/91"><i class="fa fa-external-link"></i></a></div>
+</div>
 
-<p><img src="/resources/images/speed-dataing.jpg"></p>
+<p>As someone with experience studying and working in the humanities, I know that quotes, or small pieces of text such as poems and song lyrics, are essential to self-expression for a very large number of people. Yet it seems that the Internet lacks a good place for people to collect and analyze small pieces of text and study how they interconnect. Pindar, named for one of the first Greek lyric poets, is an attempt to create that place, and a side project over the past few months.</p>
+
+<p><a href="https://pindar.pythonanywhere.com"><img src="/resources/images/pindar.png" width="100%" style="border: 2px solid #999;"></a>
+<div class="caption">Intelligent, user-powered site for quote collection and analysis.</div></p>
+
+<h3 id="project-scope">Project scope</h3>
+
+<p>Pindar differs from other quote sites in a number of important ways:</p>
+
+<ul>
+<li>It is 100% user-powered, meaning that actual people submit and vouch for every quote</li>
+<li>It is open source under the MIT license, making it free to use, copy, and contribute to the code base</li>
+<li>It makes all data available via intelligent searching and an API for use in other applications</li>
+<li>It is built from the ground up to be <em>smarter</em>: quotes can be linked to each other on the basis of allusion, influence, and similar topics, and selected into user-created anthologies</li>
+</ul>
+
+<p>Pindar also includes functionality you would expect, such as the ability to rate and comment on quotes, and edit all information submitted by other users for accuracy. </p>
+
+<h3 id="the-solution">The solution</h3>
+
+<p>Pindar is built using the Python framework web2py, which helps quickly create complex sites, and hosted by PythonAnywhere. The concept and initial code was a collaboration between me and <a href="https://github.com/mrbeskin">mrbeskin</a>, and the current version is by me. </p>
+
+<p>All the quotes on this site link to their pages on Pindar.</p>
+
+<h3 id="impact">Impact</h3>
+
+<p>Pindar is built to scale, and we have many more features under development. Join us! </p>
+
+<div style="text-align: center;"><a class="btn" href="https://pindar.pythonanywhere.com" style="padding: 10px 20%;">Check it out</a></div>
+
+<p><br/>
+To help build a better home for quotes, visit Pindar on <a href="https://github.com/lucaluca/Pindar">GitHub</a>.</p>
 
 </div>
 <div class="related">
@@ -163,6 +141,8 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 
     
     
+
+    <!-- two common tags -->
     
       
 
@@ -227,6 +207,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 
         
         
+        <div class="clearfix">
           <div class="panel" style="background-image: url('/resources/images/blobs.png'); " onclick="window.location='/project/2015/06/15/Blobs/';">
             <div class="transparency">
               <h2><a href="/project/2015/06/15/Blobs/">Blobs, or Smart Clusters</a></h2>
@@ -238,27 +219,6 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
         
         
         
-    
-      
-
-        
-        
-
-        
-            
-        
-            
-
-              
-              
-              
-
-            
-        
-            
-        
-
-        
         
     
       
@@ -266,8 +226,6 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
         
         
 
-        
-            
         
             
         
@@ -294,12 +252,159 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
             
         
             
+        
+            
 
               
               
               
 
             
+        
+            
+        
+
+        
+        
+    
+      
+
+        
+        
+
+        
+            
+        
+            
+        
+            
+
+              
+              
+              
+
+            
+        
+
+        
+        
+    
+      
+
+        
+        
+
+        
+            
+
+              
+              
+              
+
+            
+        
+            
+        
+
+        
+        
+    
+      
+
+        
+        
+
+        
+            
+        
+            
+        
+
+        
+        
+    
+      
+
+        
+        
+
+        
+            
+        
+
+        
+        
+    
+      
+
+        
+        
+
+        
+            
+        
+            
+        
+
+        
+        
+    
+      
+
+        
+        
+
+        
+            
+        
+            
+        
+
+        
+        
+    
+
+    <!-- one common tag -->
+    
+      
+
+        
+        
+
+        
+            
+        
+            
+        
+
+        
+        
+    
+      
+    
+      
+
+        
+        
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+        
+        
+    
+      
+
+        
+        
+
         
             
         
@@ -311,7 +416,112 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 
             
         
+            
 
+              
+              
+              
+
+            
+        
+            
+        
+
+        
+        
+    
+      
+
+        
+        
+
+        
+            
+        
+            
+
+              
+              
+              
+
+            
+        
+            
+        
+
+        
+        
+        
+          <div class="panel no-image" onclick="window.location='/project/2015/06/01/Harris-Insider/';">
+            <div class="transparency">
+              <h2><a href="/project/2015/06/01/Harris-Insider/">Harris Insider</a></h2>
+              <p class="post-date">June 2015</p>
+              <p class="post-excerpt">A platform for exploring and visualizing course evaluations</p>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+        
+    
+      
+
+        
+        
+
+        
+            
+        
+            
+        
+            
+
+              
+              
+              
+
+            
+        
+            
+        
+
+        
+        
+        <div class="clearfix">
+          <div class="panel" style="background-image: url('/resources/images/healthychiviz.png'); " onclick="window.location='/project/2015/02/28/SDH/';">
+            <div class="transparency">
+              <h2><a href="/project/2015/02/28/SDH/">Social Determinants of Health in Chicago's Community Areas</a></h2>
+              <p class="post-date">February 2015</p>
+              <p class="post-excerpt">An interactive scatterplot visualization.</p>
+            </div>
+          </div>
+        
+        
+        
+        
+        
+    
+      
+
+        
+        
+
+        
+            
+        
+            
+        
+            
+
+              
+              
+              
+
+            
+        
+
+        
         
         
           <div class="panel" style="background-image: url('/resources/images/plenario.png'); " onclick="window.location='/project/2014/09/23/Plenario/';">
@@ -321,215 +531,9 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
               <p class="post-excerpt">This is the start of something amazing!</p>
             </div>
           </div>
+        </div>
         
         
-        
-        
-    
-      
-
-        
-        
-
-        
-            
-
-              
-              
-              
-
-            
-        
-            
-        
-
-        
-        
-    
-      
-
-        
-        
-
-        
-            
-        
-            
-        
-
-        
-        
-    
-      
-
-        
-        
-
-        
-            
-        
-            
-        
-
-        
-        
-    
-      
-
-        
-        
-
-        
-            
-        
-            
-        
-
-        
-        
-    
-    
-      
-
-        
-        
-
-        
-            
-        
-            
-        
-
-        
-        
-    
-      
-    
-      
-
-        
-        
-
-        
-            
-        
-            
-        
-            
-        
-            
-        
-
-        
-        
-    
-      
-
-        
-        
-
-        
-            
-        
-            
-
-              
-              
-              
-
-            
-        
-            
-
-              
-              
-              
-
-            
-        
-            
-        
-
-        
-        
-    
-      
-
-        
-        
-
-        
-            
-        
-            
-
-              
-              
-              
-
-            
-        
-            
-        
-
-        
-        
-        
-        
-    
-      
-
-        
-        
-
-        
-            
-        
-            
-        
-            
-
-              
-              
-              
-
-            
-        
-            
-        
-
-        
-        
-        
-        
-    
-      
-
-        
-        
-
-        
-            
-        
-            
-
-              
-              
-              
-
-            
-        
-            
-        
-            
-
-              
-              
-              
-
-            
-        
-
         
         
     
@@ -577,6 +581,18 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
         
             
         
+
+        
+        
+    
+      
+
+        
+        
+
+        
+            
+        
             
         
 
@@ -598,7 +614,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
         
     
 
-
+    
 
 </div>
 

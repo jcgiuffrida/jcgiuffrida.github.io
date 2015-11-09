@@ -10,8 +10,10 @@ layout: default
 <div class="related">
     <h3>Related Stories</h3>
 
-    {% assign max_posts = 2 %}
+    {% assign max_posts = 4 %}
     {% assign counter = 0 %}
+
+    <!-- two common tags -->
     {% for post in site.posts %}
       {% if page.url != post.url %}
 
@@ -30,6 +32,7 @@ layout: default
 
         {% if sameTagCount >= 2 %}
         {% if counter < max_posts %}
+        {% if counter == 0 %}<div class="clearfix">{% elsif counter == 2 %}<div class="clearfix">{% endif %}
           <div class="panel{% if post.image %}" style="background-image: url('{{ post.image }}'); {% else %} no-image{% endif %}" onclick="window.location='{{ post.url }}';">
             <div class="transparency">
               <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
@@ -37,11 +40,14 @@ layout: default
               <p class="post-excerpt">{{ post.excerpt }}</p>
             </div>
           </div>
+        {% if counter == 1 %}</div>{% elsif counter == 3 %}</div>{% endif %}
         {% assign counter=counter | plus:1 %}
         {% endif %}
         {% endif %}
         {% endif %}
     {% endfor %}
+
+    <!-- one common tag -->
     {% for post in site.posts %}
       {% if page.url != post.url %}
 
@@ -60,6 +66,7 @@ layout: default
 
         {% if sameTagCount == 1 %}
         {% if counter < max_posts %}
+        {% if counter == 0 %}<div class="clearfix">{% elsif counter == 2 %}<div class="clearfix">{% endif %}
           <div class="panel{% if post.image %}" style="background-image: url('{{ post.image }}'); {% else %} no-image{% endif %}" onclick="window.location='{{ post.url }}';">
             <div class="transparency">
               <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
@@ -67,13 +74,14 @@ layout: default
               <p class="post-excerpt">{{ post.excerpt }}</p>
             </div>
           </div>
+        {% if counter == 1 %}</div>{% elsif counter == 3 %}</div>{% endif %}
         {% assign counter=counter | plus:1 %}
         {% endif %}
         {% endif %}
         {% endif %}
     {% endfor %}
 
-
+    {% if counter == 1 %}</div>{% elsif counter == 3 %}</div>{% endif %}
 
 </div>
 {% if post.javascript %}
