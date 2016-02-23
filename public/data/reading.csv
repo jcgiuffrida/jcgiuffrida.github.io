@@ -23,7 +23,7 @@ rating,title,author,fname,lname,date,language
 **,pygmalion,george bernard shaw,george bernard,shaw,6/1/2008,english
 ***,ivan denisovich,alexander solzhenitsyn,alexander,solzhenitsyn,6/3/2008,english
 ****,sound and the fury,wm faulkner,wm,faulkner,6/12/2008,english
-*,pulp (italian),charles bukowski,charles,bukowski,6/28/2008,english
+*,pulp,charles bukowski,charles,bukowski,6/28/2008,italian
 ***,anna karenina,leo tolstoy,leo,tolstoy,7/13/2008,english
 *****,catcher in the rye,j.d. salinger,j.d.,salinger,7/17/2008,english
 *****,"absalom, absalom!",wm faulkner,wm,faulkner,7/28/2008,english
@@ -304,3 +304,12 @@ rating,title,author,fname,lname,date,language
 ****,yellow birds,kevin powers,kevin,powers,5/22/2015,english
 **,j,howard jacobson,howard,jacobson,9/19/2015,english
 ***,narrow road to the deep north,richard flanagan,richard,flanagan,10/1/2015,english
+****,tinkers,paul harding,paul,harding,11/10/2015,english
+*****,invention of love,tom stoppard,tom,stoppard,11/27/2015,english
+*****,between the world and me,ta-nehisi coates,ta-nehisi,coates,12/13/15,english
+***,unfinished business,anne-marie slaughter,anne-marie,slaughter,12/9/15,english
+**,girl on the train,paula hawkins,paula,hawkins,12/7/15,english
+****,little life,hanya yanagihara,hanya,yanagihara,1/1/16,english
+***,geography of nowhere,james howard kunstler,james howard,kunstler,1/13/16,english
+***,botany of desire,michael pollan,michael,pollan,1/23/16,english
+***,reader,bernhard schlink,bernhard,schlink,2/15/16,english

@@ -14,6 +14,7 @@ function createTOC(){
 var readingTable;
 
 loadReading = function(d){
+  $('.spinner').remove();
   $('#reading thead').append('<tr><th>title</th><th>author</th>' +
     '<th>date</th><th>rating</th><th>lname</th><th>language</th></tr>');
   d.forEach(function(b){
