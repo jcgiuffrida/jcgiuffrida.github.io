@@ -7,7 +7,6 @@ excerpt: A platform for exploring and visualizing course evaluations
 tags: viz platform insider
 ---
 
-some stuff about me
 
 ### intro paragraph about harris evaluations
 
@@ -25,12 +24,12 @@ some stuff about me
 * d3 splash page
 
 ### what's the impact?
-* 22,000 evaluations
+* 24,000 evaluations, 1,700 courses as of spring 2016
 * changing the way courses are launched and reviewed
-* write-up of me
+* write-up
 
 ### takeaway?
 * this isn't hard to do!
-* use language from the writeup of me
+* use language from the writeup
 
 

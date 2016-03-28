@@ -96,7 +96,19 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
       <div class="post">
   <h1 class="post-title">Blobs, or Smart Clusters</h1>
   <span class="post-date">June 2015</span>
-  
+  <p>Research in urban science and geospatial analytics is often hampered by arbitrary choices of the spatial unit of analysis. At best, the choice of an appropriate unit of analysis forces further parameterization of an already complex problem; at worst, using arbitrarily or historically defined units like ZIP codes or Census tracts allows local variation to dilute regional variation, making it difficult or impossible to discern patterns at a macro level.</p>
+
+<p>With the increasing availability of spatial data (especially geocoded point-level data reflecting individual observations), and advances in spatial analytics, researchers can perform their own aggregations to obviate arbitrary divisions in the data as originally collected. However, because statistically significant effects require data at a sufficiently high level of aggregation, the same tradeoff persists: either the researcher resorts to arbitrary units that obscure or magnify underlying effects, or they create their own units in an attempt to isolate regions that behave differently. This latter solution, a form of clustering, requires ever more parameters: how many clusters to create, how large to make each cluster (and how to define size), which variables on which to create the clusters, how to weight the variables relative to each other, how to evaluate the best solution, and so on. This problem has not been adequately solved for spatial analysis, especially in the context of large quantities of open municipal data and streaming data.</p>
+
+<p>Blobs, a “smart clustering” approach that builds units of analysis on the fly based on the variables of interest, is an attempt to resolve this problem. The algorithm, built on the max-p regions implementation by researchers at Arizona State University, creates spatial clusters using only one input parameter, the minimum size of each cluster. This nonparametric approach creates clusters that fit the data as closely as possible, fully isolating regions based only on the variables of interest. Using the example of 311 calls, city managers currently collect data within units like administrative wards and ZIP codes, which dilutes true variation in the data. Smart clusters allow researchers to ask and answer better questions.</p>
+
+<p>Blobs is part of an overall approach to start seeing the urban environment as fluid and driven by people, not streets, highways, and arbitrary lines drawn by city planners. In other words, the map changes depending on what the user cares about, with neighborhood boundaries that shift depending on only the variables of interest. This paves the way to prediction on a larger scale: we can ask not only how patterns of traffic or crime change, but how the de facto boundaries of neighborhoods and cities shift over time.</p>
+
+<p>I was the initial developer on the Blobs project, writing the codebase, conducting statistical evaluation and testing, delivering a minimum viable product, and preparing for the product launch at the Strata conference in September 2015. </p>
+
+<p><br>
+<div style="text-align: center;"><a class="btn" href="https://github.com/ChicagoHarris/blobs" style="padding: 10px 20%;">See the code</a></div></p>
+
 </div>
 <div class="related">
     <h3>Related Stories</h3>
@@ -105,6 +117,30 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
     
 
     <!-- two common tags -->
+    
+      
+
+        
+        
+
+        
+            
+        
+            
+        
+            
+
+              
+              
+              
+
+            
+        
+            
+        
+
+        
+        
     
       
 
@@ -140,7 +176,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
             <div class="transparency">
               <h2><a href="/project/2015/11/01/Pindar/">Pindar</a></h2>
               <p class="post-date">November 2015</p>
-              <p class="post-excerpt">For quotes.</p>
+              <p class="post-excerpt">A platform for collecting and analyzing valuable quotations.</p>
             </div>
           </div>
         
@@ -206,30 +242,6 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 
         
             
-        
-            
-        
-            
-
-              
-              
-              
-
-            
-        
-            
-        
-
-        
-        
-    
-      
-
-        
-        
-
-        
-            
 
               
               
@@ -255,7 +267,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
             <div class="transparency">
               <h2><a href="/project/2014/09/23/Plenario/">Plenario</a></h2>
               <p class="post-date">September 2014</p>
-              <p class="post-excerpt">This is the start of something amazing!</p>
+              <p class="post-excerpt">An open-source platform for spatio-temporal data</p>
             </div>
           </div>
         </div>
@@ -354,86 +366,6 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 
         
             
-
-              
-              
-              
-
-            
-        
-            
-
-              
-              
-              
-
-            
-        
-            
-        
-            
-        
-
-        
-        
-    
-      
-
-        
-        
-
-        
-            
-        
-            
-        
-
-        
-        
-    
-      
-
-        
-        
-
-        
-            
-        
-            
-        
-            
-        
-            
-        
-
-        
-        
-    
-      
-    
-      
-
-        
-        
-
-        
-            
-        
-            
-        
-            
-        
-
-        
-        
-    
-      
-
-        
-        
-
-        
-            
         
             
         
@@ -451,16 +383,96 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
         
         
         <div class="clearfix">
-          <div class="panel" style="background-image: url('/resources/images/healthychiviz.png'); " onclick="window.location='/project/2015/02/28/SDH/';">
+          <div class="panel" style="background-image: url('/resources/images/healthychiviz.png'); " onclick="window.location='/project/2016/03/15/SDH/';">
             <div class="transparency">
-              <h2><a href="/project/2015/02/28/SDH/">Social Determinants of Health in Chicago's Community Areas</a></h2>
-              <p class="post-date">February 2015</p>
-              <p class="post-excerpt">An interactive scatterplot visualization.</p>
+              <h2><a href="/project/2016/03/15/SDH/">Health Viz</a></h2>
+              <p class="post-date">March 2016</p>
+              <p class="post-excerpt">An interactive scatterplot visualization and community health data platform.</p>
             </div>
           </div>
         
         
         
+        
+        
+    
+      
+
+        
+        
+
+        
+            
+
+              
+              
+              
+
+            
+        
+            
+
+              
+              
+              
+
+            
+        
+            
+        
+            
+        
+
+        
+        
+    
+      
+
+        
+        
+
+        
+            
+        
+            
+        
+
+        
+        
+    
+      
+
+        
+        
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+        
+        
+    
+      
+    
+      
+
+        
+        
+
+        
+            
+        
+            
+        
+            
+        
+
         
         
     
@@ -516,7 +528,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
             <div class="transparency">
               <h2><a href="/project/2014/09/01/DIPP/">Data in Public Policy</a></h2>
               <p class="post-date">September 2014</p>
-              <p class="post-excerpt">For data.</p>
+              <p class="post-excerpt">Leading a student organization with a radically new mission.</p>
             </div>
           </div>
         </div>

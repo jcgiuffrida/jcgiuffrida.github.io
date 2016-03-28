@@ -50,9 +50,9 @@ loadReading = function(d){
 
 $(document).ready(function(){
   $('.footer-nav li').on('click', 'a', function(e){
-    if ($('#reading').length){
+    //if ($('#reading').length){
       e.preventDefault();
-    }
+    //}
     if ($(this).closest('li').hasClass('active')){
       // pass
     } else {
