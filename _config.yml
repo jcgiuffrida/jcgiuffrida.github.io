@@ -15,6 +15,10 @@ author:
   name:           'Jonathan Giuffrida'
   url:            https://lucaluca.github.io
 
+timezone: America/New_York
+
+gems: [jekyll-paginate]
+
 paginate:         5  # 5 posts per page
 paginate_path:    '/projects/page:num/'
 
