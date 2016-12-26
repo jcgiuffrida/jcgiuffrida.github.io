@@ -10,7 +10,7 @@ tagline:          'Adventures in Data Analysis and Bunnies'
 description:      'I live at the intersection of quantitative analysis, healthcare, urban policy, and humanistic learning.'
 url:              https://lucaluca.github.io
 enforce_ssl:      lucaluca.github.io
-baseurl:          /
+baseurl:          ''
 author:
   name:           'Jonathan Giuffrida'
   url:            https://lucaluca.github.io

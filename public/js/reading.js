@@ -1,3 +1,5 @@
+---
+---
 function createTOC(){
   var i = 1;
   $('.toc ul').empty();
@@ -84,7 +86,7 @@ $(document).ready(function(){
   // initialize reading datatables
   if ($('#reading').length){
     // get data
-    Papa.parse('/public/data/reading.csv',{
+    Papa.parse('{{ site.baseurl }}/public/data/reading.csv',{
       download: true,
       header: true,
       dynamicTyping: true,

@@ -1,3 +1,5 @@
+---
+---
 /* custom css for the whole page */
 
 /********** images in post content ****************/
@@ -264,7 +266,7 @@ pre.text {
 }
 
 .panel.no-image {
-	background-image: url('/resources/images/logo-background.jpg');
+	background-image: url('{{ site.baseurl }}/resources/images/logo-background.jpg');
 }
 
 /* hover actions */
