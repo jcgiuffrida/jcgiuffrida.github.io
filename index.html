@@ -11,23 +11,23 @@ title: Home
 
 
 <div class="group">
-  <div class="activity" onclick="window.location='/about';">
-    <h3><a href="/about">About Me</a></h3>
+  <div class="activity" onclick="window.location='{{ site.baseurl }}/about';">
+    <h3><a href="{{ site.baseurl }}/about">About Me</a></h3>
     <div class="icon"><i class="fa fa-mortar-board fa-2x"></i></div>
     <p>My background and experience.</p>
   </div>
-  <div class="activity" onclick="window.location='/projects';">
-    <h3><a href="/projects">Projects</a></h3>
+  <div class="activity" onclick="window.location='{{ site.baseurl }}/projects';">
+    <h3><a href="{{ site.baseurl }}/projects">Projects</a></h3>
     <div class="icon"><i class="fa fa-area-chart fa-2x"></i></div>
     <p>A selection of things I&rsquo;ve made.</p>
   </div>
-  <div class="activity" onclick="window.location='/reading';">
-    <h3><a href="/reading">Reading</a></h3>
+  <div class="activity" onclick="window.location='{{ site.baseurl }}/reading';">
+    <h3><a href="{{ site.baseurl }}/reading">Reading</a></h3>
     <div class="icon"><i class="fa fa-book fa-2x"></i></div>
     <p>See books I've read and poetry I've learned since 2006.</p>
   </div>
-  <div class="activity" onclick="window.location='/translations';">
-    <h3><a href="/translations">Translations</a></h3>
+  <div class="activity" onclick="window.location='{{ site.baseurl }}/translations';">
+    <h3><a href="{{ site.baseurl }}/translations">Translations</a></h3>
     <div class="icon"><i class="fa fa-quote-left fa-2x"></i></div>
     <p>Sometimes I translate things for fun.</p>
     </div>
@@ -39,9 +39,9 @@ title: Home
 {% for post in site.posts %}
     {% if counter < max_projects %}
     {% cycle 'open row': '<div class="clearfix">', nil %}
-    <div class="panel{% if post.image %}" style="background-image: url('{{ post.image }}'); {% else %} no-image{% endif %}" onclick="window.location='{{ post.url }}';">
+      <div class="panel{% if post.image %}" style="background-image: url('{{ site.baseurl }}{{ post.image }}'); {% else %} no-image{% endif %}" onclick="window.location='{{ site.baseurl }}{{ post.url }}';">
       <div class="transparency">
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
         <p class="post-date">{{ post.date | date: "%B %Y" }}</p>
         <p class="post-excerpt">{{ post.excerpt }}</p>
       </div>

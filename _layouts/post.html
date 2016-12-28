@@ -33,9 +33,9 @@ layout: default
         {% if sameTagCount >= 2 %}
         {% if counter < max_posts %}
         {% if counter == 0 %}<div class="clearfix">{% elsif counter == 2 %}<div class="clearfix">{% endif %}
-          <div class="panel{% if post.image %}" style="background-image: url('{{ post.image }}'); {% else %} no-image{% endif %}" onclick="window.location='{{ post.url }}';">
+          <div class="panel{% if post.image %}" style="background-image: url('{{ site.baseurl }}{{ post.image }}'); {% else %} no-image{% endif %}" onclick="window.location='{{ site.baseurl }}{{ post.url }}';">
             <div class="transparency">
-              <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+              <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
               <p class="post-date">{{ post.date | date: "%B %Y" }}</p>
               <p class="post-excerpt">{{ post.excerpt }}</p>
             </div>
@@ -67,9 +67,9 @@ layout: default
         {% if sameTagCount == 1 %}
         {% if counter < max_posts %}
         {% if counter == 0 %}<div class="clearfix">{% elsif counter == 2 %}<div class="clearfix">{% endif %}
-          <div class="panel{% if post.image %}" style="background-image: url('{{ post.image }}'); {% else %} no-image{% endif %}" onclick="window.location='{{ post.url }}';">
+            <div class="panel{% if post.image %}" style="background-image: url('{{ site.baseurl }}{{ post.image }}'); {% else %} no-image{% endif %}" onclick="window.location='{{ site.baseurl }}{{ post.url }}';">
             <div class="transparency">
-              <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+              <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
               <p class="post-date">{{ post.date | date: "%B %Y" }}</p>
               <p class="post-excerpt">{{ post.excerpt }}</p>
             </div>
@@ -85,5 +85,5 @@ layout: default
 
 </div>
 {% if post.javascript %}
-    <script src="/public/js/{{ post.javascript }}"></script>
+    <script src="{{ site.baseurl }}/public/js/{{ post.javascript }}"></script>
 {% endif %}
