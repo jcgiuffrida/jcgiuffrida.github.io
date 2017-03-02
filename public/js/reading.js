@@ -19,7 +19,12 @@ loadReading = function(d){
   $('.spinner').remove();
   $('#reading thead').append('<tr><th>title</th><th>author</th>' +
     '<th>date</th><th>rating</th><th>lname</th><th>language</th></tr>');
+  function padDate(pad, num){
+    num = "" + num;
+    return pad.substring(0, pad.length - num.length) + num;
+  }
   d.forEach(function(b){
+    if (typeof b.title === 'undefined'){ return; }
     var book = $('<tr></tr>');
     book.append('<td>' + b.title + '</td>');
     book.append('<td>' + b.author + '</td>');
@@ -39,7 +44,7 @@ loadReading = function(d){
     },
     "columnDefs": [
       {
-        "targets": [ 4, 5 ],
+        "targets": [ 4, 5],
         "visible": false
       },
       {
@@ -89,6 +94,7 @@ $(document).ready(function(){
     Papa.parse('{{ site.baseurl }}/public/data/reading.csv',{
       download: true,
       header: true,
+      encoding: "UTF-8",
       dynamicTyping: true,
       complete: function(results) {
         loadReading(results.data);
