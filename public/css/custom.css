@@ -213,6 +213,16 @@ pre.text {
 	font-style: italic;
 }
 
+.poem .text span.link {
+	background-color: rgba(255,255,224, 0.8);
+	cursor: pointer;
+	transition: background-color 0.2s;
+}
+
+.poem .text span.link:hover {
+	background-color: rgba(255,255,224, 1);
+}
+
 .toc ul {
 	list-style-type: none;
 	font-size: 0.9em;

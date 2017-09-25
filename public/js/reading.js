@@ -101,4 +101,23 @@ $(document).ready(function(){
       }
     });
   }
+
+  // poetry links
+  $('div.content').on('click', '.poem span.link', function(){
+    var link = $(this).data('link');
+    var $els = $('.poem span.link[data-link="' + link + '"]:visible');
+    var index = $els.index($(this));
+    if ($els.length < 2){
+      return;
+    }
+    if ($els.length > index + 1){
+      scrollToElement($els.eq(index + 1));
+    } else {
+      scrollToElement($els.eq(0));
+    }
+  });
 });
+
+function scrollToElement($el){
+  $('html,body').animate({scrollTop: $el.offset().top - 200}, 1000);
+}
