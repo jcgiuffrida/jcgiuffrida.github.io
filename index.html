@@ -38,7 +38,7 @@ title: Home
 {% assign counter = 0 %}
 {% for post in site.posts %}
     {% if counter < max_projects %}
-    {% cycle 'open row': '<div class="clearfix">', nil %}
+    {% cycle '<div class="clearfix"></div>', nil %}
       <div class="panel{% if post.image %}" style="background-image: url('{{ site.baseurl }}{{ post.image }}'); {% else %} no-image{% endif %}" onclick="window.location='{{ site.baseurl }}{{ post.url }}';">
         <div class="transparency">
           <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
@@ -46,7 +46,6 @@ title: Home
           <p class="post-excerpt">{{ post.excerpt }}</p>
         </div>
       </div>
-    {% cycle 'close row': nil, '</div>' %}
     {% assign counter=counter | plus:1 %}
   {% endif %}
 {% endfor %}
