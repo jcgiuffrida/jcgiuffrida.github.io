@@ -1,7 +1,7 @@
 ---
 layout: post
 title: HealthViz
-categories: project
+categories: none
 date: '2017-10-09 00:00:00 -0500'
 excerpt: An interactive scatterplot visualization and community health data platform.
 image: '/resources/images/INC-county-medium.jpg'
