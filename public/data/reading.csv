@@ -332,7 +332,7 @@ rating,title,author,fname,lname,date,language
 ***,devil in the white city,erik larson,erik,larson,4/4/17,english
 ***,born a crime,trevor noah,trevor,noah,5/7/17,english
 ****,h is for hawk,helen macdonald,helen,macdonald,4/12/17,english
-****,history of western philosophy,bertrand russell,bertrand,russell,4/15/13
+****,history of western philosophy,bertrand russell,bertrand,russell,4/15/13,english
 ****,lolita,vladimir nabokov,vladimir,nabokov,6/2/17,english
 ***,death gap,david ansell,david,ansell,6/3/17,english
 ***,all the light we cannot see,anthony doerr,anthony,doerr,6/13/17,english
@@ -344,3 +344,11 @@ rating,title,author,fname,lname,date,language
 **,commonwealth,ann patchett,ann,patchett,8/20/17,english
 ****,there are no children here,alex kotlowicz,alex,kotlowicz,9/2/17,english
 ****,conversations with friends,sally rooney,sally,rooney,9/28/17,english
+***,gene,siddhartha mukherjee,siddhartha,mukherjee,10/22/17,english
+***,world without mind,franklin foer,franklin,foer,11/3/17,english
+*****,"absalom, absalom!",wm faulkner,wm,faulkner,11/15/17,english
+***,dune,frank herbert,frank,herbert,11/23/17,english
+*****,tess of the d'urbervilles,thomas hardy,thomas,hardy,12/2/17,english
+***,murder on the orient express,agatha christie,agatha,christie,12/9/17,english
+***,in the cafe of lost youth,patrick modiano,patrick,modiano,12/9/17,english
+**,couple next door,shari lapena,shari,lapena,12/13/17,english
