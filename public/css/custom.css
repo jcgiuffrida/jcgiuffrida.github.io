@@ -78,14 +78,13 @@
 	transition: background-color 0.25s;
 	text-align: center;
 }
-.activity a {
-	display: block;
-}
 .activity h3 {
 	margin-top: 5px;
+	color: #75b5aa;
 }
 .activity p {
 	font-size: 0.9em;
+	color: #515151;
 }
 .activity:hover {
 	background-color: #ccc;
