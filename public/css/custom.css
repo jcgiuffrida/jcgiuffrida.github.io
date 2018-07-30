@@ -78,6 +78,9 @@
 	transition: background-color 0.25s;
 	text-align: center;
 }
+.activity a {
+	display: block;
+}
 .activity h3 {
 	margin-top: 5px;
 }
