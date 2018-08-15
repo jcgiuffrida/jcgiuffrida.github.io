@@ -121,7 +121,6 @@
 }
 .group {
 	zoom: 1; /* IE6&7 */
-	margin-right: -2rem;
 }
 
 
@@ -156,6 +155,16 @@ button:hover,
 /* this looks so crappy on Windows but whatever */
 .sidebar {
 	overflow-y: auto;
+}
+
+.sidebar .name {
+	display: none;
+}
+
+@media (max-width: 767px){
+	.sidebar .name {
+		display: block;
+	}
 }
 
 .sidebar .logo img {

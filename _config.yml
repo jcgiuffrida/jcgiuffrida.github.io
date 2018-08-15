@@ -8,16 +8,16 @@ permalink:        pretty
 title:            'Jonathan Giuffrida'
 tagline:          'Adventures in Data Analysis and Bunnies'
 description:      'I live at the intersection of quantitative analysis, health policy, and the humanities.'
-url:              https://lucaluca.github.io
-enforce_ssl:      lucaluca.github.io
+url:              https://jcgiuffrida.com
+enforce_ssl:      jcgiuffrida.com
 baseurl:          ''
 author:
   name:           'Jonathan Giuffrida'
-  url:            https://lucaluca.github.io
+  url:            https://jcgiuffrida.com
 
 timezone: America/New_York
 
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 paginate:         5  # 5 posts per page
 paginate_path:    '/projects/page:num/'

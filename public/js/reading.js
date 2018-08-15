@@ -116,6 +116,14 @@ $(document).ready(function(){
       scrollToElement($els.eq(0));
     }
   });
+
+  var lines = 0;
+  var $poems = $('.poem .text');
+  $poems.each(function(el, i){
+    lines += $(this).data('lines');
+  });
+  console.log('poems: ', $poems.length);
+  console.log('lines: ', lines);
 });
 
 function scrollToElement($el){

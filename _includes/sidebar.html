@@ -2,6 +2,7 @@
   <div class="container sidebar">
 	<div class="sidebar-about">
       <a href="{{ site.baseurl }}/" class="logo"><img src="{{ site.baseurl }}/resources/images/bunnies.jpg" width="150rem" height="150rem" /></a>
+      <h3 class="name">Jonathan Giuffrida</h3>
       <p class="lead">{{ site.description }}</p>
     </div>
 
@@ -15,6 +16,9 @@
       <li class="sidebar-nav-item{% if page.title == "Projects" %} active{% endif %}">
         <a href="{{ site.baseurl }}/projects/">Projects</a>
       </li>
+      <li class="sidebar-nav-item{% if page.title == "Tech Stack" %} active{% endif %}">
+        <a href="{{ site.baseurl }}/tools/">Tech Stack</a>
+      </li>      
       <li class="sidebar-nav-item{% if page.title == "Reading" %} active{% endif %}">
         <a href="{{ site.baseurl }}/reading/">Reading</a>
       </li>
@@ -27,7 +31,6 @@
 
       <br>
     
-      <a class="sidebar-icon" href="http://www.facebook.com/jcgiuffrida" style="float:right;"><img src="{{ site.baseurl }}/resources/fb.png" height="32rem" width="32rem" /></a>
       <a class="sidebar-icon" href="http://www.linkedin.com/in/jcgiuffrida" style="float:right;"><img src="{{ site.baseurl }}/resources/li.png" height="32rem" width="32rem" /></a>
       <a class="sidebar-icon" href="https://github.com/lucaluca" style="float:right;"><img src="{{ site.baseurl }}/resources/gh.png" height="32rem" width="32rem" /></a>
       
