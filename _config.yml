@@ -6,8 +6,8 @@ permalink:        pretty
 
 # Setup
 title:            'Jonathan Giuffrida'
-tagline:          'Adventures in Data Analysis and Bunnies'
-description:      'I live at the intersection of quantitative analysis, health policy, and the humanities.'
+tagline:          'Data Analysis, Health Policy, and Bunnies'
+description:      'Data analytics and health policy professional with a humanities background.'
 url:              https://jcgiuffrida.com
 enforce_ssl:      jcgiuffrida.com
 baseurl:          ''
