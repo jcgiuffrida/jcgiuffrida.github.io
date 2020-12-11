@@ -14,7 +14,7 @@ rating,title,author,fname,lname,date,language
 ***,room with a view,e.m. forster,e.m.,forster,1/31/08,english
 ***,good-bye to all that,robert graves,robert,graves,2/5/08,english
 ****,the wall and other stories,jean-paul sartre,jean-paul,sartre,2/12/08,english
-**,cryptonomicon,neal stephenson,neal,stephenson,3/6/08,english
+*,cryptonomicon,neal stephenson,neal,stephenson,3/6/08,english
 ***,death in venice,thomas mann,thomas,mann,3/25/08,english
 ***,reader's manifesto,b.r. myers,b.r.,myers,4/13/08,english
 *****,franny & zooey,j.d. salinger,j.d.,salinger,5/17/08,english
@@ -422,3 +422,13 @@ rating,title,author,fname,lname,date,language
 **,thinking inside the box,adrienne raphel,adrienne,raphel,6/22/20,english
 ****,maid,stephanie land,stephanie,land,6/20/20,english
 **,power,naomi alderman,naomi,alderman,7/25/20,english
+****,these truths,jill lepore,jill,lepore,8/15/20,english
+**,innocent,ian mcewan,,mcewan,8/25/20,english
+*,hours,michael cunningham,,cunningham,8/29/20,english
+***,moving finger,agatha christie,,christie,9/2/20,english
+***,murder of roger ackroyd,agatha christie,,christie,9/6/20,english
+***,bel canto,ann patchett,,patchett,9/13/20,english
+**,way of man,martin buber,,buber,11/7/20,english
+***,for whom the bell tolls,ernest hemingway,,hemingway,11/8/20,english
+**,boom town,sam anderson,,anderson,11/27/20,english
+****,1984,george orwell,,orwell,12/1/20,english
