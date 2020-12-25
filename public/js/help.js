@@ -32,6 +32,8 @@ $(document).ready(function(){
     }).join('')
     $('#output-remove').text(output)
   })
+
+  console.warn('Stop trying to cheat, Michael')
 });
 
 const CODON_TO_ACID = {
