@@ -7,7 +7,7 @@ title: Home
 
 {% assign max_projects = 6 %}
 
-<p>I am a data analytics and health policy professional, co-founder of <a href="https://metop.io">Metopio</a>, and caretaker of two <a href="http://instagram.com/bunny_report">bunny rabbits</a>.</p>
+<p>I am a data analytics and health policy professional, co-founder of <a href="https://metopio.com">Metopio</a>, and caretaker of two <a href="http://instagram.com/bunny_report">bunny rabbits</a>.</p>
 
 
 <div class="group">
@@ -19,42 +19,11 @@ title: Home
     </a>
   </div>
   <div class="activity">
-    <a href="/projects">
-      <h3>Projects</h3>
-      <div class="icon"><i class="fa fa-area-chart fa-2x"></i></div>
-      <p>A selection of things I&rsquo;ve made.</p>
-    </a>
-  </div>
-  <div class="activity">
     <a href="/reading">
       <h3>Reading</h3>
       <div class="icon"><i class="fa fa-book fa-2x"></i></div>
       <p>See books I&rsquo;ve read and poetry I&rsquo;ve learned since 2006.</p>
     </a>
   </div>
-  <div class="activity">
-    <a href="/tools">
-      <h3>Tech Stack</h3>
-      <div class="icon"><i class="fa fa-code fa-2x"></i></div>
-      <p>See what I use to make things.</p>
-    </a>
-  </div>
 </div>
 
-<h3>Recent Projects</h3>
-<div class="group">
-{% assign counter = 0 %}
-{% for post in site.posts %}
-    {% if counter < max_projects %}
-    {% cycle '<div class="clearfix"></div>', '' %}
-      <div class="panel{% if post.image %}" style="background-image: url('{{ post.image }}'); {% else %} no-image{% endif %}" onclick="window.location='{{ post.url }}';">
-        <div class="transparency">
-          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-          <p class="post-date">{{ post.date | date: "%B %Y" }}</p>
-          <p class="post-excerpt">{{ post.excerpt }}</p>
-        </div>
-      </div>
-    {% assign counter=counter | plus:1 %}
-  {% endif %}
-{% endfor %}
-</div>

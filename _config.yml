@@ -17,13 +17,13 @@ author:
 
 timezone: America/New_York
 
-plugins: [jekyll-paginate]
+# plugins: [jekyll-paginate]
 
-paginate:         5  # 5 posts per page
-paginate_path:    '/projects/page:num/'
+# paginate:         5  # 5 posts per page
+# paginate_path:    '/projects/page:num/'
 
 # Custom vars
 version:          0.1
 
 github:
-  repo:           https://github.com/lucaluca/lucaluca.github.io
+  repo:           https://github.com/jcgiuffrida/jcgiuffrida.github.io
