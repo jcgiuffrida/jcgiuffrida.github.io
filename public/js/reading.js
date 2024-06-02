@@ -1,5 +1,3 @@
----
----
 function createTOC(){
   var i = 1;
   $('.toc ul').empty();
